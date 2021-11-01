@@ -21,6 +21,8 @@ For more information about **Docker**, check out our [short introduction](https:
 ### **Build the Docker image**
 In a terminal, navigate to the directory where the Dockerfile is stored (`bsm_tutorial`) and run:
 
+`chmod +x build_image.sh`
+
 `./build_image.sh`
 
 This will use the Dockerfile to build the image with the jupyter notebook dependencies and spotl. When the image is run, the container is about ~5.7 GB.
