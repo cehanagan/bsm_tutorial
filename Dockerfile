@@ -61,11 +61,10 @@ USER $NB_UID
 
 # Install packages with conda
 # using channel conda-forge, say yes to all, avoid updating already installed packages
-# added sklearn
 RUN conda install -c conda-forge --yes --freeze-installed \
-        numpy \
+        numpy \ 
         jupyter_contrib_nbextensions \
-        obspy \
+        obspy\
 	xmltodict \
 	scikit-learn \
 	&& conda clean -afy 

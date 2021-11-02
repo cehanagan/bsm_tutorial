@@ -4,6 +4,7 @@ These notebooks aim to provide a user-friendly way to understand borehole strain
 ### 1. Install Docker
 &ensp;&ensp; Pick your system and follow instructions on the Docker website. 
 * **Mac** - https://docs.docker.com/docker-for-mac/install/ 
+	* *Please note that I had issues on my Mac M1 computer with installing obspy and libgfortran. I have not found a workaround yet, but a potential fix may be to follow the instructions here: https://docs.docker.com/desktop/mac/apple-silicon/ for known issues*
 * **Windows** - https://docs.docker.com/docker-for-windows/install/ 
 * **Ubuntu** - https://docs.docker.com/install/linux/docker-ce/ubuntu/ 
 
