@@ -1,0 +1,3790 @@
+<?xml version="1.0"?>
+<strain_xml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="pbo_bsm.xsd">
+  <inst_info>
+    <station_information>
+      <site_name>marips916bcs2008</site_name>
+      <station_long>marips916bcs2008</station_long>
+      <station_short>marips916bcs2008</station_short>
+      <dot_number>B916</dot_number>
+      <geocode>E4L4R7O1Q1G8</geocode>
+      <itype>BSM_</itype>
+      <model>GTSM21</model>
+      <institution>PBO_UNAVCO</institution>
+      <region>CA</region>
+      <install_date>2008-03-13</install_date>
+      <coordinate kind="station" ellipsoid="WGS84">
+        <lat>36.1925</lat>
+        <long>-117.6685</long>
+        <height units="m">1859.9</height>
+      </coordinate>
+      <minicluster_stations/>
+      <time_zone>UTC</time_zone>
+      <SEED>
+        <site>B916</site>
+        <network>PB</network>
+      </SEED>
+    </station_information>
+    <sensor_information>
+      <sensor_response>
+        <sensor_start_date>2008-03-13T00:00:00</sensor_start_date>
+        <sensor_end_date>3000-01-01T00:00:00</sensor_end_date>
+        <sensor_type>Gladwin_BSM_component_1_</sensor_type>
+        <sensor_code>E4L4R7O1Q1G8+BSM_+Gladwin_TSM_component_1_</sensor_code>
+        <channel_code>Gladwin_BSM_component_1_+00086400</channel_code>
+        <depth units="m">176.5</depth>
+        <orientation direction="east_of_north" units="degrees">303.6</orientation>
+        <sensor_volts_per_unit>0.0</sensor_volts_per_unit>
+        <digitizer_counts_per_volt>0</digitizer_counts_per_volt>
+        <scalefactor_units_per_count unit="nstrain" kind="manufacturer">0.05</scalefactor_units_per_count>
+        <voltage_input_to_logger> </voltage_input_to_logger>
+        <assigned_logger_bits>0</assigned_logger_bits>
+        <datalogger_manufacturer>GTSM Technologies</datalogger_manufacturer>
+        <datalogger_serial_number>PBO-05-067</datalogger_serial_number>
+        <datalogger_model>GTSM21</datalogger_model>
+        <sensor_serial_number>PBO-05-067</sensor_serial_number>
+        <response>
+          <real_poles> </real_poles>
+          <imag_poles> </imag_poles>
+          <real_zeros> </real_zeros>
+          <imag_zeroes> </imag_zeroes>
+        </response>
+      </sensor_response>
+      <sensor_response>
+        <sensor_start_date>2008-03-13T00:00:00</sensor_start_date>
+        <sensor_end_date>3000-01-01T00:00:00</sensor_end_date>
+        <sensor_type>Gladwin_BSM_component_2_</sensor_type>
+        <sensor_code>E4L4R7O1Q1G8+BSM_+Gladwin_BSM_component_2_</sensor_code>
+        <channel_code>Gladwin_BSM_component_2_+00086400</channel_code>
+        <depth units="m">176.5</depth>
+        <orientation direction="east_of_north" units="degrees">243.6</orientation>
+        <sensor_volts_per_unit>0.0</sensor_volts_per_unit>
+        <digitizer_counts_per_volt>0.0</digitizer_counts_per_volt>
+        <scalefactor_units_per_count unit="nstrain" kind="manufacturer">0.05</scalefactor_units_per_count>
+        <voltage_input_to_logger> </voltage_input_to_logger>
+        <assigned_logger_bits>0</assigned_logger_bits>
+        <datalogger_manufacturer>GTSM Technologies</datalogger_manufacturer>
+        <datalogger_serial_number>PBO-05-067</datalogger_serial_number>
+        <datalogger_model>GTSM21</datalogger_model>
+        <sensor_serial_number>PBO-05-067</sensor_serial_number>
+        <response>
+          <real_poles> </real_poles>
+          <imag_poles> </imag_poles>
+          <real_zeros> </real_zeros>
+          <imag_zeroes> </imag_zeroes>
+        </response>
+      </sensor_response>
+      <sensor_response>
+        <sensor_start_date>2008-03-13T00:00:00</sensor_start_date>
+        <sensor_end_date>3000-01-01T00:00:00</sensor_end_date>
+        <sensor_type>Gladwin_BSM_component_3_</sensor_type>
+        <sensor_code>E4L4R7O1Q1G8+BSM_+Gladwin_TSM_component_3_</sensor_code>
+        <channel_code>Gladwin_BSM_component_3_+00086400</channel_code>
+        <depth units="m">176.5</depth>
+        <orientation direction="east_of_north" units="degrees">183.6</orientation>
+        <sensor_volts_per_unit>0.0</sensor_volts_per_unit>
+        <digitizer_counts_per_volt>0.0</digitizer_counts_per_volt>
+        <scalefactor_units_per_count unit="nstrain" kind="manufacturer">0.05</scalefactor_units_per_count>
+        <voltage_input_to_logger> </voltage_input_to_logger>
+        <assigned_logger_bits>0</assigned_logger_bits>
+        <datalogger_manufacturer>GTSM Technologies</datalogger_manufacturer>
+        <datalogger_serial_number>PBO-05-067</datalogger_serial_number>
+        <datalogger_model>GTSM21</datalogger_model>
+        <sensor_serial_number>PBO-05-067</sensor_serial_number>
+        <response>
+          <real_poles> </real_poles>
+          <imag_poles> </imag_poles>
+          <real_zeros> </real_zeros>
+          <imag_zeroes> </imag_zeroes>
+        </response>
+      </sensor_response>
+      <sensor_response>
+        <sensor_start_date>2008-03-13T00:00:00</sensor_start_date>
+        <sensor_end_date>3000-01-01T00:00:00</sensor_end_date>
+        <sensor_type>Gladwin_BSM_component_4_</sensor_type>
+        <sensor_code>E4L4R7O1Q1G8+BSM_+Gladwin_TSM_component_4_</sensor_code>
+        <channel_code>Gladwin_BSM_component_4_+00086400</channel_code>
+        <depth units="m">176.5</depth>
+        <orientation direction="east_of_north" units="degrees">153.6</orientation>
+        <sensor_volts_per_unit>0.0</sensor_volts_per_unit>
+        <digitizer_counts_per_volt>0.0</digitizer_counts_per_volt>
+        <scalefactor_units_per_count unit="nstrain" kind="manufacturer">0.05</scalefactor_units_per_count>
+        <voltage_input_to_logger> </voltage_input_to_logger>
+        <assigned_logger_bits>0</assigned_logger_bits>
+        <datalogger_manufacturer>GTSM Technologies</datalogger_manufacturer>
+        <datalogger_serial_number>PBO-05-067</datalogger_serial_number>
+        <datalogger_model>GTSM21</datalogger_model>
+        <sensor_serial_number>PBO-05-067</sensor_serial_number>
+        <response>
+          <real_poles> </real_poles>
+          <imag_poles> </imag_poles>
+          <real_zeros> </real_zeros>
+          <imag_zeroes> </imag_zeroes>
+        </response>
+      </sensor_response>
+      <sensor_response>
+        <sensor_start_date>2008-03-13T00:00:00</sensor_start_date>
+        <sensor_end_date>3000-01-01T00:00:00</sensor_end_date>
+        <sensor_type>Gladwin_BSM_atm_pressure</sensor_type>
+        <sensor_code>E4L4R7O1Q1G8+BSM_+Gladwin_BSM_atm_pressure</sensor_code>
+        <channel_code>Gladwin_BSM_atm_pressure+00000048</channel_code>
+        <depth units="m">0</depth>
+        <orientation direction="east_of_north" units="degrees">0</orientation>
+        <sensor_volts_per_unit>0.0</sensor_volts_per_unit>
+        <digitizer_counts_per_volt>0.0</digitizer_counts_per_volt>
+        <voltage_input_to_logger> </voltage_input_to_logger>
+        <assigned_logger_bits>0</assigned_logger_bits>
+        <datalogger_manufacturer>GTSM Technologies</datalogger_manufacturer>
+        <datalogger_serial_number>PBO-05-067</datalogger_serial_number>
+        <datalogger_model>GTSM21</datalogger_model>
+        <sensor_serial_number>PBO-05-067</sensor_serial_number>
+        <response>
+          <real_poles> </real_poles>
+          <imag_poles> </imag_poles>
+          <real_zeros> </real_zeros>
+          <imag_zeroes> </imag_zeroes>
+        </response>
+      </sensor_response>
+    </sensor_information>
+    <processing>
+      <bsm_processing_history>
+        <processing_history_start>2008-06-25T00:00:00</processing_history_start>
+        <processing_history_end>2008-09-04T00:00:00</processing_history_end>
+        <bsm_processing>
+          <timeseries_start_date>2008-03-13T00:00:00</timeseries_start_date>
+          <timeseries_end_date>2008-09-04T00:00:00</timeseries_end_date>
+          <!-- gap units="meters">0.0001</gap -->
+          <!-- diameter units="meters">0.087</diameter -->
+          <linearization>
+            <linear_date>2008-03-30T00:00:00</linear_date>
+            <g0_value>0.55948375</g0_value>
+            <g1_value>0.53191200</g1_value>
+            <g2_value>0.55522127</g2_value>
+            <g3_value>0.49391430</g3_value>
+          </linearization>
+          <gauge_weightings>
+            <gw0>1</gw0>
+            <gw1>1</gw1>
+            <gw2>1</gw2>
+            <gw3>1</gw3>
+          </gauge_weightings>
+          <orientation_matrix>
+            <o11>0.5</o11>
+            <o12>-0.193762</o12>
+            <o13>-0.46093</o13>
+            <o21> 0.5 </o21>
+            <o22>-0.302297</o22>
+            <o23>0.398267</o23>
+            <o31>0.5</o31>
+            <o32>0.496058</o32>
+            <o33>0.0626639</o33>
+            <o41>0.5 </o41>
+            <o42>0.302298</o42>
+            <o43>-0.398266</o43>
+          </orientation_matrix>
+          <areal_and_shear_factors>
+            <c_areal>1.5</c_areal>
+            <d_shear>3.0</d_shear>
+          </areal_and_shear_factors>
+          <topography/>
+          <atm_pressure unit="microstrain_per_millibar">
+            <apc_g0>-0.00237071</apc_g0>
+            <apc_g1>-0.00227949</apc_g1>
+            <apc_g2>-0.00303164</apc_g2>
+            <apc_g3>-0.00176717</apc_g3>
+          </atm_pressure>
+          <tidal_parameters>
+            <units phase="degrees" potential="local" lag="negative" amp="nanostrain"/>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  ">
+              <phz kind="gauge0">20.779</phz>
+              <amp kind="gauge0">10.494</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 ">
+              <phz kind="gauge0">-30.929</phz>
+              <amp kind="gauge0">5.535</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  ">
+              <phz kind="gauge0">-29.486</phz>
+              <amp kind="gauge0">5.102</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  ">
+              <phz kind="gauge0">19.534</phz>
+              <amp kind="gauge0">4.253</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  ">
+              <phz kind="gauge0">23.442</phz>
+              <amp kind="gauge0">2.225</amp>
+            </tide>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  ">
+              <phz kind="gauge1">-128.823</phz>
+              <amp kind="gauge1">5.016</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 ">
+              <phz kind="gauge1">42.532</phz>
+              <amp kind="gauge1">3.615</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  ">
+              <phz kind="gauge1">60.724</phz>
+              <amp kind="gauge1">4.301</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  ">
+              <phz kind="gauge1">-134.386</phz>
+              <amp kind="gauge1">2.177</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  ">
+              <phz kind="gauge1">-135.691</phz>
+              <amp kind="gauge1">0.986</amp>
+            </tide>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  ">
+              <phz kind="gauge2">5.338</phz>
+              <amp kind="gauge2">14.210</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 ">
+              <phz kind="gauge2">19.244</phz>
+              <amp kind="gauge2">3.121</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  ">
+              <phz kind="gauge2">65.519</phz>
+              <amp kind="gauge2">2.199</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  ">
+              <phz kind="gauge2">6.178</phz>
+              <amp kind="gauge2">7.502</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  ">
+              <phz kind="gauge2">-0.747</phz>
+              <amp kind="gauge2">2.764</amp>
+            </tide>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  ">
+              <phz kind="gauge3">24.046</phz>
+              <amp kind="gauge3">9.978</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 ">
+              <phz kind="gauge3">-98.870</phz>
+              <amp kind="gauge3">1.939</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  ">
+              <phz kind="gauge3">-129.500</phz>
+              <amp kind="gauge3">2.646</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  ">
+              <phz kind="gauge3">25.311</phz>
+              <amp kind="gauge3">4.672</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  ">
+              <phz kind="gauge3">25.953</phz>
+              <amp kind="gauge3">1.973</amp>
+            </tide>
+          </tidal_parameters>
+          <!-- detrend_ref>2008-03-13T00:00:00</detrend_ref -->
+          <detrend_g0 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+            <F>115.19</F>
+            <A1>-200.01</A1>
+            <T1>-.035</T1>
+            <M>-0.84</M>
+            <A2>0.0</A2>
+            <T2>0.0</T2>
+          </detrend_g0>
+          <detrend_g1 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+            <F>14.96</F>
+            <A1>-134.6</A1>
+            <T1>-.162</T1>
+            <M>-0.360</M>
+            <A2>0.0</A2>
+            <T2>0.0</T2>
+          </detrend_g1>
+          <detrend_g2 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+            <F>79.77</F>
+            <A1>-181.19</A1>
+            <T1>-.0517</T1>
+            <M>-0.683</M>
+            <A2>0.0</A2>
+            <T2>0.0</T2>
+          </detrend_g2>
+          <detrend_g3 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+            <F>-24.39</F>
+            <A1>45.557</A1>
+            <T1>-0.027</T1>
+            <M>-0.044</M>
+            <A2>0.0</A2>
+            <T2>0.0</T2>
+          </detrend_g3>
+          <decimate_by_two_filter kind="causal" number="30"> 0.0983262 0.2977611 0.4086973 0.3138961
+            0.0494246 -0.1507778 -0.1123764 0.0376576 0.0996838 0.0154992 -0.0666489 -0.0346632
+            0.0322767 0.0399294 -0.0097461 -0.0341585 -0.0039241 0.0246776 0.0099725 -0.0157879
+            -0.0099098 0.0078510 0.0081126 -0.0026986 -0.0061424 0.0007108 0.0039659 -0.0006209
+            -0.0017117 0.0007240 </decimate_by_two_filter>
+          <decimate_by_three_filter kind="causal" number="23"> 0.0373766 0.1165151 0.2385729
+            0.3083302 0.2887327 0.1597948 0.0058244 -0.0973639 -0.1051034 -0.0358455 0.0359044
+            0.0632477 0.0302351 -0.0168856 -0.0356758 -0.0190635 0.0126188 0.0159705 0.0082144
+            -0.0087978 -0.0037289 -0.0017068 0.0028335 </decimate_by_three_filter>
+          <decimate_by_five_filter kind="causal" number="34"> 0.0218528 0.0458359 0.0908603
+            0.1359777 0.1830881 0.1993418 0.1957624 0.1561194 0.0994146 0.0346412 -0.0236544
+            -0.0580081 -0.0703257 -0.0555546 -0.0287709 0.0032613 0.0267938 0.0358952 0.0311186
+            0.0134283 -0.0028524 -0.0170042 -0.0176765 -0.0123123 -0.0036798 0.0057730 0.0059817
+            0.0083501 0.0000581 0.0005724 -0.0033127 0.0004411 -0.0030766 0.0016604
+          </decimate_by_five_filter>
+        </bsm_processing>
+      </bsm_processing_history>
+      <bsm_processing_history>
+        <processing_history_start>2008-09-04T00:00:00</processing_history_start>
+        <processing_history_end>2009-01-11T00:00:00</processing_history_end>
+        <bsm_processing>
+          <timeseries_start_date>2008-03-13T00:00:00</timeseries_start_date>
+        	<timeseries_end_date>2009-01-11T00:00:00</timeseries_end_date>
+          <!-- gap units="meters">0.0001</gap -->
+          <!-- diameter units="meters">0.087</diameter -->
+          <linearization>
+            <linear_date>2008-03-30T00:00:00</linear_date>
+            <g0_value>0.55948375</g0_value>
+            <g1_value>0.53191200</g1_value>
+            <g2_value>0.55522127</g2_value>
+            <g3_value>0.49391430</g3_value>
+          </linearization>
+          <gauge_weightings>
+            <gw0>1</gw0>
+            <gw1>1</gw1>
+            <gw2>1</gw2>
+            <gw3>1</gw3>
+          </gauge_weightings>
+          <orientation_matrix>
+            <o11>0.5</o11>
+            <o12>-0.193762</o12>
+            <o13>-0.46093</o13>
+            <o21> 0.5 </o21>
+            <o22>-0.302297</o22>
+            <o23>0.398267</o23>
+            <o31>0.5</o31>
+            <o32>0.496058</o32>
+            <o33>0.0626639</o33>
+            <o41>0.5 </o41>
+            <o42>0.302298</o42>
+            <o43>-0.398266</o43>
+          </orientation_matrix>
+          <areal_and_shear_factors>
+            <c_areal>1.5</c_areal>
+            <d_shear>3.0</d_shear>
+          </areal_and_shear_factors>
+          <topography/>
+          <atm_pressure unit="microstrain_per_millibar">
+            <apc_g0>-0.00250393</apc_g0>
+            <apc_g1>-0.00242704</apc_g1>
+            <apc_g2>-0.00293069</apc_g2>
+            <apc_g3>-0.00187474</apc_g3>
+          </atm_pressure>
+          <tidal_parameters>
+            <units phase="degrees" potential="local" lag="negative" amp="nanostrain"/>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  ">
+              <phz kind="gauge0">18.568</phz>
+              <amp kind="gauge0">10.268</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 ">
+              <phz kind="gauge0">-29.442</phz>
+              <amp kind="gauge0">5.924</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  ">
+              <phz kind="gauge0">-26.577</phz>
+              <amp kind="gauge0">5.679</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  ">
+              <phz kind="gauge0">15.499</phz>
+              <amp kind="gauge0">3.879</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  ">
+              <phz kind="gauge0">21.077</phz>
+              <amp kind="gauge0">2.230</amp>
+            </tide>
+            <tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  ">
+              <phz kind="gauge0">-15.469</phz>
+              <amp kind="gauge0">2.180</amp>
+            </tide>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  ">
+              <phz kind="gauge1">-128.266</phz>
+              <amp kind="gauge1">4.905</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 ">
+              <phz kind="gauge1">41.842</phz>
+              <amp kind="gauge1">3.736</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  ">
+              <phz kind="gauge1">57.641</phz>
+              <amp kind="gauge1">4.749</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  ">
+              <phz kind="gauge1">-125.392</phz>
+              <amp kind="gauge1">2.427</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  ">
+              <phz kind="gauge1">-134.195</phz>
+              <amp kind="gauge1">1.012</amp>
+            </tide>
+            <tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  ">
+              <phz kind="gauge1">79.417</phz>
+              <amp kind="gauge1">2.469</amp>
+            </tide>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  ">
+              <phz kind="gauge2">5.396</phz>
+              <amp kind="gauge2">13.735</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 ">
+              <phz kind="gauge2">19.810</phz>
+              <amp kind="gauge2">2.982</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  ">
+              <phz kind="gauge2">61.480</phz>
+              <amp kind="gauge2">3.206</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  ">
+              <phz kind="gauge2">7.885</phz>
+              <amp kind="gauge2">7.153</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  ">
+              <phz kind="gauge2">-1.406</phz>
+              <amp kind="gauge2">2.639</amp>
+            </tide>
+            <tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  ">
+              <phz kind="gauge2">79.695</phz>
+              <amp kind="gauge2">2.063</amp>
+            </tide>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  ">
+              <phz kind="gauge3">24.292</phz>
+              <amp kind="gauge3">10.007</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 ">
+              <phz kind="gauge3">-90.378</phz>
+              <amp kind="gauge3">2.161</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  ">
+              <phz kind="gauge3">-117.923</phz>
+              <amp kind="gauge3">2.392</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  ">
+              <phz kind="gauge3">24.772</phz>
+              <amp kind="gauge3">4.583</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  ">
+              <phz kind="gauge3">24.889</phz>
+              <amp kind="gauge3">2.013</amp>
+            </tide>
+            <tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  ">
+              <phz kind="gauge3">160.203</phz>
+              <amp kind="gauge3">0.384</amp>
+            </tide>
+          </tidal_parameters>
+          <!-- detrend_ref>2008-03-13T00:00:00</detrend_ref -->
+          <detrend_g0 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+            <F>90.63</F>
+            <A1>-203.8</A1>
+            <T1>-.046</T1>
+            <M>-0.632</M>
+            <A2>0.0</A2>
+            <T2>0.0</T2>
+          </detrend_g0>
+          <detrend_g1 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+            <F>-41.58</F>
+            <A1>-105.08</A1>
+            <T1>-.122</T1>
+            <M>-0.0557</M>
+            <A2>+64.678</A2>
+            <T2>-0.009</T2>
+          </detrend_g1>
+          <detrend_g2 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+            <F>-12.49</F>
+            <A1>-204.01</A1>
+            <T1>-.045</T1>
+            <M>-0.194</M>
+            <A2>+123.8</A2>
+            <T2>-0.01</T2>
+          </detrend_g2>
+          <detrend_g3 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+            <F>-16</F>
+            <A1>-162.27</A1>
+            <T1>-0.204</T1>
+            <M>-0.113</M>
+            <A2>+42.125</A2>
+            <T2>-0.035</T2>
+          </detrend_g3>
+          <decimate_by_two_filter kind="causal" number="30"> 0.0983262 0.2977611 0.4086973 0.3138961
+            0.0494246 -0.1507778 -0.1123764 0.0376576 0.0996838 0.0154992 -0.0666489 -0.0346632
+            0.0322767 0.0399294 -0.0097461 -0.0341585 -0.0039241 0.0246776 0.0099725 -0.0157879
+            -0.0099098 0.0078510 0.0081126 -0.0026986 -0.0061424 0.0007108 0.0039659 -0.0006209
+            -0.0017117 0.0007240 </decimate_by_two_filter>
+          <decimate_by_three_filter kind="causal" number="23"> 0.0373766 0.1165151 0.2385729
+            0.3083302 0.2887327 0.1597948 0.0058244 -0.0973639 -0.1051034 -0.0358455 0.0359044
+            0.0632477 0.0302351 -0.0168856 -0.0356758 -0.0190635 0.0126188 0.0159705 0.0082144
+            -0.0087978 -0.0037289 -0.0017068 0.0028335 </decimate_by_three_filter>
+          <decimate_by_five_filter kind="causal" number="34"> 0.0218528 0.0458359 0.0908603
+            0.1359777 0.1830881 0.1993418 0.1957624 0.1561194 0.0994146 0.0346412 -0.0236544
+            -0.0580081 -0.0703257 -0.0555546 -0.0287709 0.0032613 0.0267938 0.0358952 0.0311186
+            0.0134283 -0.0028524 -0.0170042 -0.0176765 -0.0123123 -0.0036798 0.0057730 0.0059817
+            0.0083501 0.0000581 0.0005724 -0.0033127 0.0004411 -0.0030766 0.0016604
+          </decimate_by_five_filter>
+        </bsm_processing>
+      </bsm_processing_history>   	
+    	<bsm_processing_history>
+    		<processing_history_start>2009-01-11T00:00:00</processing_history_start>
+    	  <processing_history_end>2009-04-19T00:00:00</processing_history_end>
+    		<bsm_processing>
+    			<timeseries_start_date>2008-03-13T00:00:00</timeseries_start_date>
+    		  <timeseries_end_date>2009-04-19T00:00:00</timeseries_end_date>
+    			<!-- gap units="meters">0.0001</gap -->
+    			<!-- diameter units="meters">0.087</diameter -->
+    			<linearization>
+    				<linear_date>2008-03-30T00:00:00</linear_date>
+    				<g0_value>0.55948375</g0_value>
+    				<g1_value>0.53191200</g1_value>
+    				<g2_value>0.55522127</g2_value>
+    				<g3_value>0.49391430</g3_value>
+    			</linearization>
+    			<gauge_weightings>
+    				<gw0>1</gw0>
+    				<gw1>1</gw1>
+    				<gw2>1</gw2>
+    				<gw3>1</gw3>
+    			</gauge_weightings>
+    			<orientation_matrix>
+    				<o11>0.5</o11>
+    				<o12>-0.193762</o12>
+    				<o13>-0.46093</o13>
+    				<o21> 0.5 </o21>
+    				<o22>-0.302297</o22>
+    				<o23>0.398267</o23>
+    				<o31>0.5</o31>
+    				<o32>0.496058</o32>
+    				<o33>0.0626639</o33>
+    				<o41>0.5 </o41>
+    				<o42>0.302298</o42>
+    				<o43>-0.398266</o43>
+    			</orientation_matrix>
+    			<areal_and_shear_factors>
+    				<c_areal>1.5</c_areal>
+    				<d_shear>3.0</d_shear>
+    			</areal_and_shear_factors>
+    			<topography/>
+    			<atm_pressure unit="microstrain_per_millibar">
+    				<apc_g0>-0.00250393</apc_g0>
+    				<apc_g1>-0.00242704</apc_g1>
+    				<apc_g2>-0.00293069</apc_g2>
+    				<apc_g3>-0.00187474</apc_g3>
+    			</atm_pressure>
+    			<tidal_parameters>
+    				<units phase="degrees" potential="local" lag="negative" amp="nanostrain"/>
+    				<tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  ">
+    					<phz kind="gauge0">18.568</phz>
+    					<amp kind="gauge0">10.268</amp>
+    				</tide>
+    				<tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 ">
+    					<phz kind="gauge0">-29.442</phz>
+    					<amp kind="gauge0">5.924</amp>
+    				</tide>
+    				<tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  ">
+    					<phz kind="gauge0">-26.577</phz>
+    					<amp kind="gauge0">5.679</amp>
+    				</tide>
+    				<tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  ">
+    					<phz kind="gauge0">15.499</phz>
+    					<amp kind="gauge0">3.879</amp>
+    				</tide>
+    				<tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  ">
+    					<phz kind="gauge0">21.077</phz>
+    					<amp kind="gauge0">2.230</amp>
+    				</tide>
+    				<tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  ">
+    					<phz kind="gauge0">-15.469</phz>
+    					<amp kind="gauge0">2.180</amp>
+    				</tide>
+    				<tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  ">
+    					<phz kind="gauge1">-128.266</phz>
+    					<amp kind="gauge1">4.905</amp>
+    				</tide>
+    				<tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 ">
+    					<phz kind="gauge1">41.842</phz>
+    					<amp kind="gauge1">3.736</amp>
+    				</tide>
+    				<tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  ">
+    					<phz kind="gauge1">57.641</phz>
+    					<amp kind="gauge1">4.749</amp>
+    				</tide>
+    				<tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  ">
+    					<phz kind="gauge1">-125.392</phz>
+    					<amp kind="gauge1">2.427</amp>
+    				</tide>
+    				<tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  ">
+    					<phz kind="gauge1">-134.195</phz>
+    					<amp kind="gauge1">1.012</amp>
+    				</tide>
+    				<tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  ">
+    					<phz kind="gauge1">79.417</phz>
+    					<amp kind="gauge1">2.469</amp>
+    				</tide>
+    				<tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  ">
+    					<phz kind="gauge2">5.396</phz>
+    					<amp kind="gauge2">13.735</amp>
+    				</tide>
+    				<tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 ">
+    					<phz kind="gauge2">19.810</phz>
+    					<amp kind="gauge2">2.982</amp>
+    				</tide>
+    				<tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  ">
+    					<phz kind="gauge2">61.480</phz>
+    					<amp kind="gauge2">3.206</amp>
+    				</tide>
+    				<tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  ">
+    					<phz kind="gauge2">7.885</phz>
+    					<amp kind="gauge2">7.153</amp>
+    				</tide>
+    				<tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  ">
+    					<phz kind="gauge2">-1.406</phz>
+    					<amp kind="gauge2">2.639</amp>
+    				</tide>
+    				<tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  ">
+    					<phz kind="gauge2">79.695</phz>
+    					<amp kind="gauge2">2.063</amp>
+    				</tide>
+    				<tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  ">
+    					<phz kind="gauge3">24.292</phz>
+    					<amp kind="gauge3">10.007</amp>
+    				</tide>
+    				<tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 ">
+    					<phz kind="gauge3">-90.378</phz>
+    					<amp kind="gauge3">2.161</amp>
+    				</tide>
+    				<tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  ">
+    					<phz kind="gauge3">-117.923</phz>
+    					<amp kind="gauge3">2.392</amp>
+    				</tide>
+    				<tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  ">
+    					<phz kind="gauge3">24.772</phz>
+    					<amp kind="gauge3">4.583</amp>
+    				</tide>
+    				<tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  ">
+    					<phz kind="gauge3">24.889</phz>
+    					<amp kind="gauge3">2.013</amp>
+    				</tide>
+    				<tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  ">
+    					<phz kind="gauge3">160.203</phz>
+    					<amp kind="gauge3">0.384</amp>
+    				</tide>
+    			</tidal_parameters>
+    			<!-- detrend_ref>2008-03-13T00:00:00</detrend_ref -->
+    			<detrend_g0 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+    				<F>-11.82</F>
+    				<A1>-563.43</A1>
+    				<T1>-.0242</T1>
+    				<M>-0.17</M>
+    				<A2>492.7</A2>
+    				<T2>-0.0155</T2>
+    			</detrend_g0>
+    			<detrend_g1 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+    				<F>-33.71</F>
+    				<A1>-88.162</A1>
+    				<T1>-.106</T1>
+    				<M>-0.0736</M>
+    				<A2>59.35</A2>
+    				<T2>-0.011</T2>
+    			</detrend_g1>
+    			<detrend_g2 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+    				<F>-23.49</F>
+    				<A1>-220.41</A1>
+    				<T1>-.0478</T1>
+    				<M>-0.137</M>
+    				<A2>137.19</A2>
+    				<T2>-0.0101</T2>
+    			</detrend_g2>
+    			<detrend_g3 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+    				<F>-15.56</F>
+    				<A1>-513.88</A1>
+    				<T1>-0.263</T1>
+    				<M>-0.115</M>
+    				<A2>45.178</A2>
+    				<T2>-0.0387</T2>
+    			</detrend_g3>   			
+    			<decimate_by_two_filter kind="causal" number="30"> 0.0983262 0.2977611 0.4086973 0.3138961
+    				0.0494246 -0.1507778 -0.1123764 0.0376576 0.0996838 0.0154992 -0.0666489 -0.0346632
+    				0.0322767 0.0399294 -0.0097461 -0.0341585 -0.0039241 0.0246776 0.0099725 -0.0157879
+    				-0.0099098 0.0078510 0.0081126 -0.0026986 -0.0061424 0.0007108 0.0039659 -0.0006209
+    				-0.0017117 0.0007240 </decimate_by_two_filter>
+    			<decimate_by_three_filter kind="causal" number="23"> 0.0373766 0.1165151 0.2385729
+    				0.3083302 0.2887327 0.1597948 0.0058244 -0.0973639 -0.1051034 -0.0358455 0.0359044
+    				0.0632477 0.0302351 -0.0168856 -0.0356758 -0.0190635 0.0126188 0.0159705 0.0082144
+    				-0.0087978 -0.0037289 -0.0017068 0.0028335 </decimate_by_three_filter>
+    			<decimate_by_five_filter kind="causal" number="34"> 0.0218528 0.0458359 0.0908603
+    				0.1359777 0.1830881 0.1993418 0.1957624 0.1561194 0.0994146 0.0346412 -0.0236544
+    				-0.0580081 -0.0703257 -0.0555546 -0.0287709 0.0032613 0.0267938 0.0358952 0.0311186
+    				0.0134283 -0.0028524 -0.0170042 -0.0176765 -0.0123123 -0.0036798 0.0057730 0.0059817
+    				0.0083501 0.0000581 0.0005724 -0.0033127 0.0004411 -0.0030766 0.0016604
+    			</decimate_by_five_filter>
+    		</bsm_processing>
+    	</bsm_processing_history> 
+      <bsm_processing_history>
+        <processing_history_start>2009-04-19T00:00:00</processing_history_start>
+        <processing_history_end>2009-08-02T00:00:00</processing_history_end>
+        <bsm_processing>
+          <timeseries_start_date>2008-03-13T00:00:00</timeseries_start_date>
+        	<timeseries_end_date>2009-08-02T00:00:00</timeseries_end_date>
+          <!-- gap units="meters">0.0001</gap -->
+          <!-- diameter units="meters">0.087</diameter -->
+          <linearization>
+            <linear_date>2008-03-30T00:00:00</linear_date>
+            <g0_value>0.55948375</g0_value>
+            <g1_value>0.53191200</g1_value>
+            <g2_value>0.55522127</g2_value>
+            <g3_value>0.49391430</g3_value>
+          </linearization>
+          <gauge_weightings>
+            <gw0>1</gw0>
+            <gw1>1</gw1>
+            <gw2>1</gw2>
+            <gw3>1</gw3>
+          </gauge_weightings>
+          <orientation_matrix>
+            <o11>0.5</o11>
+            <o12>-0.193762</o12>
+            <o13>-0.46093</o13>
+            <o21> 0.5 </o21>
+            <o22>-0.302297</o22>
+            <o23>0.398267</o23>
+            <o31>0.5</o31>
+            <o32>0.496058</o32>
+            <o33>0.0626639</o33>
+            <o41>0.5 </o41>
+            <o42>0.302298</o42>
+            <o43>-0.398266</o43>
+          </orientation_matrix>
+          <areal_and_shear_factors>
+            <c_areal>1.5</c_areal>
+            <d_shear>3.0</d_shear>
+          </areal_and_shear_factors>
+          <topography/>
+          <atm_pressure unit="microstrain_per_millibar">
+            <apc_g0>-0.00235881</apc_g0>
+            <apc_g1>-0.00264676</apc_g1>
+            <apc_g2>-0.00323726</apc_g2>
+            <apc_g3>-0.00208402</apc_g3>
+          </atm_pressure>
+          <tidal_parameters>
+            <units phase="degrees" potential="local" lag="negative" amp="nanostrain"/>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  ">
+              <phz kind="gauge0">24.906</phz>
+              <amp kind="gauge0">8.894</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 ">
+              <phz kind="gauge0">-35.881</phz>
+              <amp kind="gauge0">4.846</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  ">
+              <phz kind="gauge0">-55.056</phz>
+              <amp kind="gauge0">6.731</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  ">
+              <phz kind="gauge0">28.579</phz>
+              <amp kind="gauge0">3.392</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  ">
+              <phz kind="gauge0">27.016</phz>
+              <amp kind="gauge0">2.020</amp>
+            </tide>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  ">
+              <phz kind="gauge1">-124.982</phz>
+              <amp kind="gauge1">4.630</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 ">
+              <phz kind="gauge1">39.684</phz>
+              <amp kind="gauge1">4.043</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  ">
+              <phz kind="gauge1">24.730</phz>
+              <amp kind="gauge1">2.771</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  ">
+              <phz kind="gauge1">-127.835</phz>
+              <amp kind="gauge1">1.926</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  ">
+              <phz kind="gauge1">-133.373</phz>
+              <amp kind="gauge1">0.982</amp>
+            </tide>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  ">
+              <phz kind="gauge2">6.381</phz>
+              <amp kind="gauge2">13.145</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 ">
+              <phz kind="gauge2">26.478</phz>
+              <amp kind="gauge2">2.830</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  ">
+              <phz kind="gauge2">-29.158</phz>
+              <amp kind="gauge2">1.315</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  ">
+              <phz kind="gauge2">12.829</phz>
+              <amp kind="gauge2">6.956</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  ">
+              <phz kind="gauge2">1.700</phz>
+              <amp kind="gauge2">2.368</amp>
+            </tide>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  ">
+              <phz kind="gauge3">24.748</phz>
+              <amp kind="gauge3">10.230</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 ">
+              <phz kind="gauge3">-89.400</phz>
+              <amp kind="gauge3">2.832</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  ">
+              <phz kind="gauge3">-95.757</phz>
+              <amp kind="gauge3">4.876</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  ">
+              <phz kind="gauge3">28.986</phz>
+              <amp kind="gauge3">4.568</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  ">
+              <phz kind="gauge3">24.847</phz>
+              <amp kind="gauge3">2.277</amp>
+            </tide>
+          </tidal_parameters>
+          <!-- detrend_ref>2008-03-13T00:00:00</detrend_ref -->
+          <detrend_g0 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+            <F>-47.15</F>
+            <A1>-273.13</A1>
+            <T1>-.033</T1>
+            <M>-0.089</M>
+            <A2>+222.3</A2>
+            <T2>-0.0089</T2>
+          </detrend_g0>
+          <detrend_g1 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+            <F>-30.26</F>
+            <A1>-91.678</A1>
+            <T1>-.106</T1>
+            <M>-0.084</M>
+            <A2>+56.802</A2>
+            <T2>-0.0117</T2>
+          </detrend_g1>
+          <detrend_g2 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+            <F>-9.87</F>
+            <A1>-233.23</A1>
+            <T1>-.044</T1>
+            <M>-0.173</M>
+            <A2>+142.14</A2>
+            <T2>-0.0125</T2>
+          </detrend_g2>
+          <detrend_g3 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+            <F>-16.1</F>
+            <A1>-453.58</A1>
+            <T1>-0.263</T1>
+            <M>-0.112</M>
+            <A2>43.187</A2>
+            <T2>-0.0363</T2>
+          </detrend_g3>
+          <decimate_by_two_filter kind="causal" number="30"> 0.0983262 0.2977611 0.4086973 0.3138961
+            0.0494246 -0.1507778 -0.1123764 0.0376576 0.0996838 0.0154992 -0.0666489 -0.0346632
+            0.0322767 0.0399294 -0.0097461 -0.0341585 -0.0039241 0.0246776 0.0099725 -0.0157879
+            -0.0099098 0.0078510 0.0081126 -0.0026986 -0.0061424 0.0007108 0.0039659 -0.0006209
+            -0.0017117 0.0007240 </decimate_by_two_filter>
+          <decimate_by_three_filter kind="causal" number="23"> 0.0373766 0.1165151 0.2385729
+            0.3083302 0.2887327 0.1597948 0.0058244 -0.0973639 -0.1051034 -0.0358455 0.0359044
+            0.0632477 0.0302351 -0.0168856 -0.0356758 -0.0190635 0.0126188 0.0159705 0.0082144
+            -0.0087978 -0.0037289 -0.0017068 0.0028335 </decimate_by_three_filter>
+          <decimate_by_five_filter kind="causal" number="34"> 0.0218528 0.0458359 0.0908603
+            0.1359777 0.1830881 0.1993418 0.1957624 0.1561194 0.0994146 0.0346412 -0.0236544
+            -0.0580081 -0.0703257 -0.0555546 -0.0287709 0.0032613 0.0267938 0.0358952 0.0311186
+            0.0134283 -0.0028524 -0.0170042 -0.0176765 -0.0123123 -0.0036798 0.0057730 0.0059817
+            0.0083501 0.0000581 0.0005724 -0.0033127 0.0004411 -0.0030766 0.0016604
+          </decimate_by_five_filter>
+        </bsm_processing>
+      </bsm_processing_history>   
+    	<bsm_processing_history>
+    		<processing_history_start>2009-08-02T00:00:00</processing_history_start>
+    		<processing_history_end>2009-12-29T00:00:00</processing_history_end>
+    		<bsm_processing>
+    			<timeseries_start_date>2008-03-13T00:00:00</timeseries_start_date>
+    			<timeseries_end_date>2009-12-29T00:00:00</timeseries_end_date>
+    			<!-- gap units="meters">0.0001</gap -->
+    			<!-- diameter units="meters">0.087</diameter -->
+    			<linearization>
+    				<linear_date>2008-03-30T00:00:00</linear_date>
+    				<g0_value>0.55948375</g0_value>
+    				<g1_value>0.53191200</g1_value>
+    				<g2_value>0.55522127</g2_value>
+    				<g3_value>0.49391430</g3_value>
+    			</linearization>
+    			<gauge_weightings>
+    				<gw0>1</gw0>
+    				<gw1>1</gw1>
+    				<gw2>1</gw2>
+    				<gw3>1</gw3>
+    			</gauge_weightings>
+    			<orientation_matrix>
+    				<o11>0.5</o11>
+    				<o12>-0.193762</o12>
+    				<o13>-0.46093</o13>
+    				<o21> 0.5 </o21>
+    				<o22>-0.302297</o22>
+    				<o23>0.398267</o23>
+    				<o31>0.5</o31>
+    				<o32>0.496058</o32>
+    				<o33>0.0626639</o33>
+    				<o41>0.5 </o41>
+    				<o42>0.302298</o42>
+    				<o43>-0.398266</o43>
+    			</orientation_matrix>
+    			<areal_and_shear_factors>
+    				<c_areal>1.5</c_areal>
+    				<d_shear>3.0</d_shear>
+    			</areal_and_shear_factors>
+    			<topography/>
+    			<atm_pressure unit="microstrain_per_millibar">
+    				<apc_g0>-0.00138189</apc_g0>
+    				<apc_g1>-0.00146047</apc_g1>
+    				<apc_g2>-0.00175441</apc_g2>
+    				<apc_g3>-0.00113715</apc_g3>
+    			</atm_pressure>
+    			<tidal_parameters>
+    				<units phase="degrees" potential="local" lag="negative" amp="nanostrain"/>
+    				<tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  ">
+    					<phz kind="gauge0">22.125</phz>
+    					<amp kind="gauge0">9.275</amp>
+    				</tide>
+    				<tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 ">
+    					<phz kind="gauge0">-32.179</phz>
+    					<amp kind="gauge0">5.279</amp>
+    				</tide>
+    				<tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  ">
+    					<phz kind="gauge0">-39.137</phz>
+    					<amp kind="gauge0">4.915</amp>
+    				</tide>
+    				<tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  ">
+    					<phz kind="gauge0">21.479</phz>
+    					<amp kind="gauge0">3.501</amp>
+    				</tide>
+    				<tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  ">
+    					<phz kind="gauge0">24.571</phz>
+    					<amp kind="gauge0">2.075</amp>
+    				</tide>
+    				<tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  ">
+    					<phz kind="gauge0">-21.444</phz>
+    					<amp kind="gauge0">1.484</amp>
+    				</tide>
+    				<tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  ">
+    					<phz kind="gauge1">-125.561</phz>
+    					<amp kind="gauge1">4.739</amp>
+    				</tide>
+    				<tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 ">
+    					<phz kind="gauge1">39.598</phz>
+    					<amp kind="gauge1">4.000</amp>
+    				</tide>
+    				<tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  ">
+    					<phz kind="gauge1">55.263</phz>
+    					<amp kind="gauge1">4.547</amp>
+    				</tide>
+    				<tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  ">
+    					<phz kind="gauge1">-122.886</phz>
+    					<amp kind="gauge1">2.132</amp>
+    				</tide>
+    				<tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  ">
+    					<phz kind="gauge1">-132.244</phz>
+    					<amp kind="gauge1">0.984</amp>
+    				</tide>
+    				<tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  ">
+    					<phz kind="gauge1">64.723</phz>
+    					<amp kind="gauge1">2.111</amp>
+    				</tide>
+    				<tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  ">
+    					<phz kind="gauge2">5.838</phz>
+    					<amp kind="gauge2">13.356</amp>
+    				</tide>
+    				<tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 ">
+    					<phz kind="gauge2">24.009</phz>
+    					<amp kind="gauge2">2.959</amp>
+    				</tide>
+    				<tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  ">
+    					<phz kind="gauge2">60.259</phz>
+    					<amp kind="gauge2">2.639</amp>
+    				</tide>
+    				<tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  ">
+    					<phz kind="gauge2">10.324</phz>
+    					<amp kind="gauge2">7.075</amp>
+    				</tide>
+    				<tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  ">
+    					<phz kind="gauge2">0.178</phz>
+    					<amp kind="gauge2">2.477</amp>
+    				</tide>
+    				<tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  ">
+    					<phz kind="gauge2">68.176</phz>
+    					<amp kind="gauge2">1.636</amp>
+    				</tide>
+    				<tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  ">
+    					<phz kind="gauge3">24.192</phz>
+    					<amp kind="gauge3">10.129</amp>
+    				</tide>
+    				<tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 ">
+    					<phz kind="gauge3">-84.511</phz>
+    					<amp kind="gauge3">2.346</amp>
+    				</tide>
+    				<tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  ">
+    					<phz kind="gauge3">-109.328</phz>
+    					<amp kind="gauge3">2.455</amp>
+    				</tide>
+    				<tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  ">
+    					<phz kind="gauge3">26.955</phz>
+    					<amp kind="gauge3">4.624</amp>
+    				</tide>
+    				<tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  ">
+    					<phz kind="gauge3">23.677</phz>
+    					<amp kind="gauge3">2.137</amp>
+    				</tide>
+    				<tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  ">
+    					<phz kind="gauge3">-114.866</phz>
+    					<amp kind="gauge3">0.539</amp>
+    				</tide>
+    			</tidal_parameters>
+    			<!-- detrend_ref>2008-03-13T00:00:00</detrend_ref -->
+    			<detrend_g0 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+    				<F>-47.15</F>
+    				<A1>-273.13</A1>
+    				<T1>-.033</T1>
+    				<M>-0.089</M>
+    				<A2>+222.3</A2>
+    				<T2>-0.0089</T2>
+    			</detrend_g0>
+    			<detrend_g1 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+    				<F>-36.02</F>
+    				<A1>-108.86</A1>
+    				<T1>-.124</T1>
+    				<M>-0.069</M>
+    				<A2>+59.42</A2>
+    				<T2>-0.01</T2>
+    			</detrend_g1>
+    			<detrend_g2 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+    				<F>-21.01</F>
+    				<A1>-216.04</A1>
+    				<T1>-.047</T1>
+    				<M>-0.146</M>
+    				<A2>+135.02</A2>
+    				<T2>-0.0101</T2>
+    			</detrend_g2>
+    			<detrend_g3 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+    				<F>-31.55</F>
+    				<A1>+45.246</A1>
+    				<T1>-0.0446</T1>
+    				<M>-0.085</M>
+    				<A2>+18.805</A2>
+    				<T2>-0.0032</T2>
+    			</detrend_g3>
+     			<decimate_by_two_filter kind="causal" number="30"> 0.0983262 0.2977611 0.4086973 0.3138961
+    				0.0494246 -0.1507778 -0.1123764 0.0376576 0.0996838 0.0154992 -0.0666489 -0.0346632
+    				0.0322767 0.0399294 -0.0097461 -0.0341585 -0.0039241 0.0246776 0.0099725 -0.0157879
+    				-0.0099098 0.0078510 0.0081126 -0.0026986 -0.0061424 0.0007108 0.0039659 -0.0006209
+    				-0.0017117 0.0007240 </decimate_by_two_filter>
+    			<decimate_by_three_filter kind="causal" number="23"> 0.0373766 0.1165151 0.2385729
+    				0.3083302 0.2887327 0.1597948 0.0058244 -0.0973639 -0.1051034 -0.0358455 0.0359044
+    				0.0632477 0.0302351 -0.0168856 -0.0356758 -0.0190635 0.0126188 0.0159705 0.0082144
+    				-0.0087978 -0.0037289 -0.0017068 0.0028335 </decimate_by_three_filter>
+    			<decimate_by_five_filter kind="causal" number="34"> 0.0218528 0.0458359 0.0908603
+    				0.1359777 0.1830881 0.1993418 0.1957624 0.1561194 0.0994146 0.0346412 -0.0236544
+    				-0.0580081 -0.0703257 -0.0555546 -0.0287709 0.0032613 0.0267938 0.0358952 0.0311186
+    				0.0134283 -0.0028524 -0.0170042 -0.0176765 -0.0123123 -0.0036798 0.0057730 0.0059817
+    				0.0083501 0.0000581 0.0005724 -0.0033127 0.0004411 -0.0030766 0.0016604
+    			</decimate_by_five_filter>
+    		</bsm_processing>
+    	</bsm_processing_history>   
+    	<bsm_processing_history>
+    		<processing_history_start>2009-12-29T00:00:00</processing_history_start>
+    	  <processing_history_end>2010-04-20T00:00:00</processing_history_end>
+    		<bsm_processing>
+    			<timeseries_start_date>2008-03-13T00:00:00</timeseries_start_date>
+    		  <timeseries_end_date>2010-04-20T00:00:00</timeseries_end_date>
+    			<!-- gap units="meters">0.0001</gap -->
+    			<!-- diameter units="meters">0.087</diameter -->
+    			<linearization>
+    				<linear_date>2008-03-30T00:00:00</linear_date>
+    				<g0_value>0.55948375</g0_value>
+    				<g1_value>0.53191200</g1_value>
+    				<g2_value>0.55522127</g2_value>
+    				<g3_value>0.49391430</g3_value>
+    			</linearization>
+    			<gauge_weightings>
+    				<gw0>1</gw0>
+    				<gw1>1</gw1>
+    				<gw2>1</gw2>
+    				<gw3>1</gw3>
+    			</gauge_weightings>
+    			<orientation_matrix>
+    				<o11>0.5</o11>
+    				<o12>-0.193762</o12>
+    				<o13>-0.46093</o13>
+    				<o21> 0.5 </o21>
+    				<o22>-0.302297</o22>
+    				<o23>0.398267</o23>
+    				<o31>0.5</o31>
+    				<o32>0.496058</o32>
+    				<o33>0.0626639</o33>
+    				<o41>0.5 </o41>
+    				<o42>0.302298</o42>
+    				<o43>-0.398266</o43>
+    			</orientation_matrix>
+    			<areal_and_shear_factors>
+    				<c_areal>1.5</c_areal>
+    				<d_shear>3.0</d_shear>
+    			</areal_and_shear_factors>
+    			<topography/>
+    			<atm_pressure unit="microstrain_per_millibar">
+    				<apc_g0>-0.00138189</apc_g0>
+    				<apc_g1>-0.00146047</apc_g1>
+    				<apc_g2>-0.00175441</apc_g2>
+    				<apc_g3>-0.00113715</apc_g3>
+    			</atm_pressure>
+    			<tidal_parameters>
+    				<units phase="degrees" potential="local" lag="negative" amp="nanostrain"/>
+    				<tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  ">
+    					<phz kind="gauge0">22.125</phz>
+    					<amp kind="gauge0">9.275</amp>
+    				</tide>
+    				<tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 ">
+    					<phz kind="gauge0">-32.179</phz>
+    					<amp kind="gauge0">5.279</amp>
+    				</tide>
+    				<tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  ">
+    					<phz kind="gauge0">-39.137</phz>
+    					<amp kind="gauge0">4.915</amp>
+    				</tide>
+    				<tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  ">
+    					<phz kind="gauge0">21.479</phz>
+    					<amp kind="gauge0">3.501</amp>
+    				</tide>
+    				<tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  ">
+    					<phz kind="gauge0">24.571</phz>
+    					<amp kind="gauge0">2.075</amp>
+    				</tide>
+    				<tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  ">
+    					<phz kind="gauge0">-21.444</phz>
+    					<amp kind="gauge0">1.484</amp>
+    				</tide>
+    				<tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  ">
+    					<phz kind="gauge1">-125.561</phz>
+    					<amp kind="gauge1">4.739</amp>
+    				</tide>
+    				<tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 ">
+    					<phz kind="gauge1">39.598</phz>
+    					<amp kind="gauge1">4.000</amp>
+    				</tide>
+    				<tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  ">
+    					<phz kind="gauge1">55.263</phz>
+    					<amp kind="gauge1">4.547</amp>
+    				</tide>
+    				<tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  ">
+    					<phz kind="gauge1">-122.886</phz>
+    					<amp kind="gauge1">2.132</amp>
+    				</tide>
+    				<tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  ">
+    					<phz kind="gauge1">-132.244</phz>
+    					<amp kind="gauge1">0.984</amp>
+    				</tide>
+    				<tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  ">
+    					<phz kind="gauge1">64.723</phz>
+    					<amp kind="gauge1">2.111</amp>
+    				</tide>
+    				<tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  ">
+    					<phz kind="gauge2">5.838</phz>
+    					<amp kind="gauge2">13.356</amp>
+    				</tide>
+    				<tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 ">
+    					<phz kind="gauge2">24.009</phz>
+    					<amp kind="gauge2">2.959</amp>
+    				</tide>
+    				<tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  ">
+    					<phz kind="gauge2">60.259</phz>
+    					<amp kind="gauge2">2.639</amp>
+    				</tide>
+    				<tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  ">
+    					<phz kind="gauge2">10.324</phz>
+    					<amp kind="gauge2">7.075</amp>
+    				</tide>
+    				<tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  ">
+    					<phz kind="gauge2">0.178</phz>
+    					<amp kind="gauge2">2.477</amp>
+    				</tide>
+    				<tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  ">
+    					<phz kind="gauge2">68.176</phz>
+    					<amp kind="gauge2">1.636</amp>
+    				</tide>
+    				<tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  ">
+    					<phz kind="gauge3">24.192</phz>
+    					<amp kind="gauge3">10.129</amp>
+    				</tide>
+    				<tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 ">
+    					<phz kind="gauge3">-84.511</phz>
+    					<amp kind="gauge3">2.346</amp>
+    				</tide>
+    				<tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  ">
+    					<phz kind="gauge3">-109.328</phz>
+    					<amp kind="gauge3">2.455</amp>
+    				</tide>
+    				<tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  ">
+    					<phz kind="gauge3">26.955</phz>
+    					<amp kind="gauge3">4.624</amp>
+    				</tide>
+    				<tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  ">
+    					<phz kind="gauge3">23.677</phz>
+    					<amp kind="gauge3">2.137</amp>
+    				</tide>
+    				<tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  ">
+    					<phz kind="gauge3">-114.866</phz>
+    					<amp kind="gauge3">0.539</amp>
+    				</tide>
+    			</tidal_parameters>
+    			<!-- detrend_ref>2008-03-13T00:00:00</detrend_ref -->
+    			<detrend_g0 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+    				<F>-72.13</F>
+    				<A1>191.16</A1>
+    				<T1>-.0063</T1>
+    				<M>-0.05</M>
+    				<A2>0.0</A2>
+    				<T2>-0.00</T2>
+    			</detrend_g0>
+    			<detrend_g1 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+    				<F>-60.64</F>
+    				<A1>71.319</A1>
+    				<T1>-.0053</T1>
+    				<M>-0.028</M>
+    				<A2>0.0</A2>
+    				<T2>-0.00</T2>
+    			</detrend_g1>
+    			<detrend_g2 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+    				<F>-38.17</F>
+    				<A1>125.69</A1>
+    				<T1>-.0074</T1>
+    				<M>-0.115</M>
+    				<A2>0.0</A2>
+    				<T2>-0.0</T2>
+    			</detrend_g2>
+    			<detrend_g3 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+    				<F>-26.44</F>
+    				<A1>15.859</A1>
+    				<T1>-.005</T1>
+    				<M>-0.09</M>
+    				<A2>0.0</A2>
+    				<T2>-0.0</T2>
+    			</detrend_g3>
+    			<decimate_by_two_filter kind="causal" number="30"> 0.0983262 0.2977611 0.4086973 0.3138961
+    				0.0494246 -0.1507778 -0.1123764 0.0376576 0.0996838 0.0154992 -0.0666489 -0.0346632
+    				0.0322767 0.0399294 -0.0097461 -0.0341585 -0.0039241 0.0246776 0.0099725 -0.0157879
+    				-0.0099098 0.0078510 0.0081126 -0.0026986 -0.0061424 0.0007108 0.0039659 -0.0006209
+    				-0.0017117 0.0007240 </decimate_by_two_filter>
+    			<decimate_by_three_filter kind="causal" number="23"> 0.0373766 0.1165151 0.2385729
+    				0.3083302 0.2887327 0.1597948 0.0058244 -0.0973639 -0.1051034 -0.0358455 0.0359044
+    				0.0632477 0.0302351 -0.0168856 -0.0356758 -0.0190635 0.0126188 0.0159705 0.0082144
+    				-0.0087978 -0.0037289 -0.0017068 0.0028335 </decimate_by_three_filter>
+    			<decimate_by_five_filter kind="causal" number="34"> 0.0218528 0.0458359 0.0908603
+    				0.1359777 0.1830881 0.1993418 0.1957624 0.1561194 0.0994146 0.0346412 -0.0236544
+    				-0.0580081 -0.0703257 -0.0555546 -0.0287709 0.0032613 0.0267938 0.0358952 0.0311186
+    				0.0134283 -0.0028524 -0.0170042 -0.0176765 -0.0123123 -0.0036798 0.0057730 0.0059817
+    				0.0083501 0.0000581 0.0005724 -0.0033127 0.0004411 -0.0030766 0.0016604
+    			</decimate_by_five_filter>
+    		</bsm_processing>
+    	</bsm_processing_history>  
+      <bsm_processing_history>
+        <processing_history_start>2010-04-20T00:00:00</processing_history_start>
+	      <processing_history_end>2010-09-02T00:00:00</processing_history_end>
+        <bsm_processing>
+          <timeseries_start_date>2008-03-13T00:00:00</timeseries_start_date>
+          <timeseries_end_date>2010-09-02T00:00:00</timeseries_end_date>
+          <!-- gap units="meters">0.0001</gap -->
+          <!-- diameter units="meters">0.087</diameter -->
+          <linearization>
+            <linear_date>2008-03-30T00:00:00</linear_date>
+            <g0_value>0.55948375</g0_value>
+            <g1_value>0.53191200</g1_value>
+            <g2_value>0.55522127</g2_value>
+            <g3_value>0.49391430</g3_value>
+          </linearization>
+          <gauge_weightings>
+            <gw0>1</gw0>
+            <gw1>1</gw1>
+            <gw2>1</gw2>
+            <gw3>1</gw3>
+          </gauge_weightings>
+          <orientation_matrix>
+            <o11>0.5</o11>
+            <o12>-0.193762</o12>
+            <o13>-0.46093</o13>
+            <o21> 0.5 </o21>
+            <o22>-0.302297</o22>
+            <o23>0.398267</o23>
+            <o31>0.5</o31>
+            <o32>0.496058</o32>
+            <o33>0.0626639</o33>
+            <o41>0.5 </o41>
+            <o42>0.302298</o42>
+            <o43>-0.398266</o43>
+          </orientation_matrix>
+          <areal_and_shear_factors>
+            <c_areal>1.5</c_areal>
+            <d_shear>3.0</d_shear>
+          </areal_and_shear_factors>
+          <topography/>
+          <atm_pressure unit="microstrain_per_millibar">
+            <apc_g0>-0.00138189</apc_g0>
+            <apc_g1>-0.00146047</apc_g1>
+            <apc_g2>-0.00175441</apc_g2>
+            <apc_g3>-0.00113715</apc_g3>
+          </atm_pressure>
+          <tidal_parameters>
+            <units phase="degrees" potential="local" lag="negative" amp="nanostrain"/>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  ">
+              <phz kind="gauge0">22.125</phz>
+              <amp kind="gauge0">9.275</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 ">
+              <phz kind="gauge0">-32.179</phz>
+              <amp kind="gauge0">5.279</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  ">
+              <phz kind="gauge0">-39.137</phz>
+              <amp kind="gauge0">4.915</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  ">
+              <phz kind="gauge0">21.479</phz>
+              <amp kind="gauge0">3.501</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  ">
+              <phz kind="gauge0">24.571</phz>
+              <amp kind="gauge0">2.075</amp>
+            </tide>
+            <tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  ">
+              <phz kind="gauge0">-21.444</phz>
+              <amp kind="gauge0">1.484</amp>
+            </tide>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  ">
+              <phz kind="gauge1">-125.561</phz>
+              <amp kind="gauge1">4.739</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 ">
+              <phz kind="gauge1">39.598</phz>
+              <amp kind="gauge1">4.000</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  ">
+              <phz kind="gauge1">55.263</phz>
+              <amp kind="gauge1">4.547</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  ">
+              <phz kind="gauge1">-122.886</phz>
+              <amp kind="gauge1">2.132</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  ">
+              <phz kind="gauge1">-132.244</phz>
+              <amp kind="gauge1">0.984</amp>
+            </tide>
+            <tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  ">
+              <phz kind="gauge1">64.723</phz>
+              <amp kind="gauge1">2.111</amp>
+            </tide>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  ">
+              <phz kind="gauge2">5.838</phz>
+              <amp kind="gauge2">13.356</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 ">
+              <phz kind="gauge2">24.009</phz>
+              <amp kind="gauge2">2.959</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  ">
+              <phz kind="gauge2">60.259</phz>
+              <amp kind="gauge2">2.639</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  ">
+              <phz kind="gauge2">10.324</phz>
+              <amp kind="gauge2">7.075</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  ">
+              <phz kind="gauge2">0.178</phz>
+              <amp kind="gauge2">2.477</amp>
+            </tide>
+            <tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  ">
+              <phz kind="gauge2">68.176</phz>
+              <amp kind="gauge2">1.636</amp>
+            </tide>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  ">
+              <phz kind="gauge3">24.192</phz>
+              <amp kind="gauge3">10.129</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 ">
+              <phz kind="gauge3">-84.511</phz>
+              <amp kind="gauge3">2.346</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  ">
+              <phz kind="gauge3">-109.328</phz>
+              <amp kind="gauge3">2.455</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  ">
+              <phz kind="gauge3">26.955</phz>
+              <amp kind="gauge3">4.624</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  ">
+              <phz kind="gauge3">23.677</phz>
+              <amp kind="gauge3">2.137</amp>
+            </tide>
+            <tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  ">
+              <phz kind="gauge3">-114.866</phz>
+              <amp kind="gauge3">0.539</amp>
+            </tide>
+          </tidal_parameters>
+          <!-- detrend_ref>2008-03-13T00:00:00</detrend_ref -->
+          <detrend_g0 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+            <F>-74.23</F>
+            <A1>+191.58</A1>
+            <T1>-.0062</T1>
+            <M>-0.047</M>
+            <A2>0.0</A2>
+            <T2>0.0</T2>
+          </detrend_g0>
+          <detrend_g1 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+            <F>-64.65</F>
+            <A1>+74.767</A1>
+            <T1>-.005</T1>
+            <M>-0.022</M>
+            <A2>0.0</A2>
+            <T2>0.0</T2>
+          </detrend_g1>
+          <detrend_g2 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+            <F>-43.52</F>
+            <A1>+127.8</A1>
+            <T1>-.0069</T1>
+            <M>-0.106</M>
+            <A2>0.0</A2>
+            <T2>0.0</T2>
+          </detrend_g2>
+          <detrend_g3 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+            <F>-29.54</F>
+            <A1>+17.969</A1>
+            <T1>-0.004</T1>
+            <M>-0.086</M>
+            <A2>0.0</A2>
+            <T2>0.0</T2>
+          </detrend_g3>          
+          <decimate_by_two_filter kind="causal" number="30"> 0.0983262 0.2977611 0.4086973 0.3138961
+            0.0494246 -0.1507778 -0.1123764 0.0376576 0.0996838 0.0154992 -0.0666489 -0.0346632
+            0.0322767 0.0399294 -0.0097461 -0.0341585 -0.0039241 0.0246776 0.0099725 -0.0157879
+            -0.0099098 0.0078510 0.0081126 -0.0026986 -0.0061424 0.0007108 0.0039659 -0.0006209
+            -0.0017117 0.0007240 </decimate_by_two_filter>
+          <decimate_by_three_filter kind="causal" number="23"> 0.0373766 0.1165151 0.2385729
+            0.3083302 0.2887327 0.1597948 0.0058244 -0.0973639 -0.1051034 -0.0358455 0.0359044
+            0.0632477 0.0302351 -0.0168856 -0.0356758 -0.0190635 0.0126188 0.0159705 0.0082144
+            -0.0087978 -0.0037289 -0.0017068 0.0028335 </decimate_by_three_filter>
+          <decimate_by_five_filter kind="causal" number="34"> 0.0218528 0.0458359 0.0908603
+            0.1359777 0.1830881 0.1993418 0.1957624 0.1561194 0.0994146 0.0346412 -0.0236544
+            -0.0580081 -0.0703257 -0.0555546 -0.0287709 0.0032613 0.0267938 0.0358952 0.0311186
+            0.0134283 -0.0028524 -0.0170042 -0.0176765 -0.0123123 -0.0036798 0.0057730 0.0059817
+            0.0083501 0.0000581 0.0005724 -0.0033127 0.0004411 -0.0030766 0.0016604
+          </decimate_by_five_filter>
+        </bsm_processing>
+      </bsm_processing_history>  
+      <bsm_processing_history>
+        <processing_history_start>2010-09-02T00:00:00</processing_history_start>
+		    <!-- 2010-09-02 corrected orientation matrix so Ee-Enn met convention --> 
+        <processing_history_end>2010-12-20T00:00:00</processing_history_end>
+        <bsm_processing>
+          <timeseries_start_date>2008-03-13T00:00:00</timeseries_start_date>
+          <timeseries_end_date>2010-12-20T00:00:00</timeseries_end_date>
+          <!-- gap units="meters">0.0001</gap -->
+          <!-- diameter units="meters">0.087</diameter -->
+          <linearization>
+            <linear_date>2008-03-30T00:00:00</linear_date>
+            <g0_value>0.55948375</g0_value>
+            <g1_value>0.53191200</g1_value>
+            <g2_value>0.55522127</g2_value>
+            <g3_value>0.49391430</g3_value>
+          </linearization>
+          <gauge_weightings>
+            <gw0>1</gw0>
+            <gw1>1</gw1>
+            <gw2>1</gw2>
+            <gw3>1</gw3>
+          </gauge_weightings>
+          <orientation_matrix>
+            <o11>0.5</o11>
+            <o12> 0.193762 </o12> 
+            <o13>-0.46093</o13>
+            <o21> 0.5 </o21>
+            <o22> 0.302297 </o22> 
+            <o23>0.398267</o23>
+            <o31>0.5</o31>
+            <o32> -0.496058 </o32> 
+            <o33>0.0626639</o33>
+            <o41>0.5 </o41>
+            <o42> -0.302298 </o42> 
+            <o43>-0.398266</o43>
+          </orientation_matrix>
+          <areal_and_shear_factors>
+            <c_areal>1.5</c_areal>
+            <d_shear>3.0</d_shear>
+          </areal_and_shear_factors>
+          <topography/>
+          <atm_pressure unit="microstrain_per_millibar">
+            <apc_g0>-0.00138189</apc_g0>
+            <apc_g1>-0.00146047</apc_g1>
+            <apc_g2>-0.00175441</apc_g2>
+            <apc_g3>-0.00113715</apc_g3>
+          </atm_pressure>
+          <tidal_parameters>
+            <units phase="degrees" potential="local" lag="negative" amp="nanostrain"/>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  ">
+              <phz kind="gauge0">22.125</phz>
+              <amp kind="gauge0">9.275</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 ">
+              <phz kind="gauge0">-32.179</phz>
+              <amp kind="gauge0">5.279</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  ">
+              <phz kind="gauge0">-39.137</phz>
+              <amp kind="gauge0">4.915</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  ">
+              <phz kind="gauge0">21.479</phz>
+              <amp kind="gauge0">3.501</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  ">
+              <phz kind="gauge0">24.571</phz>
+              <amp kind="gauge0">2.075</amp>
+            </tide>
+            <tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  ">
+              <phz kind="gauge0">-21.444</phz>
+              <amp kind="gauge0">1.484</amp>
+            </tide>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  ">
+              <phz kind="gauge1">-125.561</phz>
+              <amp kind="gauge1">4.739</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 ">
+              <phz kind="gauge1">39.598</phz>
+              <amp kind="gauge1">4.000</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  ">
+              <phz kind="gauge1">55.263</phz>
+              <amp kind="gauge1">4.547</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  ">
+              <phz kind="gauge1">-122.886</phz>
+              <amp kind="gauge1">2.132</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  ">
+              <phz kind="gauge1">-132.244</phz>
+              <amp kind="gauge1">0.984</amp>
+            </tide>
+            <tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  ">
+              <phz kind="gauge1">64.723</phz>
+              <amp kind="gauge1">2.111</amp>
+            </tide>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  ">
+              <phz kind="gauge2">5.838</phz>
+              <amp kind="gauge2">13.356</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 ">
+              <phz kind="gauge2">24.009</phz>
+              <amp kind="gauge2">2.959</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  ">
+              <phz kind="gauge2">60.259</phz>
+              <amp kind="gauge2">2.639</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  ">
+              <phz kind="gauge2">10.324</phz>
+              <amp kind="gauge2">7.075</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  ">
+              <phz kind="gauge2">0.178</phz>
+              <amp kind="gauge2">2.477</amp>
+            </tide>
+            <tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  ">
+              <phz kind="gauge2">68.176</phz>
+              <amp kind="gauge2">1.636</amp>
+            </tide>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  ">
+              <phz kind="gauge3">24.192</phz>
+              <amp kind="gauge3">10.129</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 ">
+              <phz kind="gauge3">-84.511</phz>
+              <amp kind="gauge3">2.346</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  ">
+              <phz kind="gauge3">-109.328</phz>
+              <amp kind="gauge3">2.455</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  ">
+              <phz kind="gauge3">26.955</phz>
+              <amp kind="gauge3">4.624</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  ">
+              <phz kind="gauge3">23.677</phz>
+              <amp kind="gauge3">2.137</amp>
+            </tide>
+            <tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  ">
+              <phz kind="gauge3">-114.866</phz>
+              <amp kind="gauge3">0.539</amp>
+            </tide>
+          </tidal_parameters>
+          <!-- detrend_ref>2008-03-13T00:00:00</detrend_ref -->
+          <detrend_g0 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+            <F>-74.23</F>
+            <A1>+191.58</A1>
+            <T1>-.0062</T1>
+            <M>-0.047</M>
+            <A2>0.0</A2>
+            <T2>0.0</T2>
+          </detrend_g0>
+          <detrend_g1 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+            <F>-64.65</F>
+            <A1>+74.767</A1>
+            <T1>-.005</T1>
+            <M>-0.022</M>
+            <A2>0.0</A2>
+            <T2>0.0</T2>
+          </detrend_g1>
+          <detrend_g2 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+            <F>-43.52</F>
+            <A1>+127.8</A1>
+            <T1>-.0069</T1>
+            <M>-0.106</M>
+            <A2>0.0</A2>
+            <T2>0.0</T2>
+          </detrend_g2>
+          <detrend_g3 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+            <F>-29.54</F>
+            <A1>+17.969</A1>
+            <T1>-0.004</T1>
+            <M>-0.086</M>
+            <A2>0.0</A2>
+            <T2>0.0</T2>
+          </detrend_g3>          
+          <decimate_by_two_filter kind="causal" number="30"> 0.0983262 0.2977611 0.4086973 0.3138961
+            0.0494246 -0.1507778 -0.1123764 0.0376576 0.0996838 0.0154992 -0.0666489 -0.0346632
+            0.0322767 0.0399294 -0.0097461 -0.0341585 -0.0039241 0.0246776 0.0099725 -0.0157879
+            -0.0099098 0.0078510 0.0081126 -0.0026986 -0.0061424 0.0007108 0.0039659 -0.0006209
+            -0.0017117 0.0007240 </decimate_by_two_filter>
+          <decimate_by_three_filter kind="causal" number="23"> 0.0373766 0.1165151 0.2385729
+            0.3083302 0.2887327 0.1597948 0.0058244 -0.0973639 -0.1051034 -0.0358455 0.0359044
+            0.0632477 0.0302351 -0.0168856 -0.0356758 -0.0190635 0.0126188 0.0159705 0.0082144
+            -0.0087978 -0.0037289 -0.0017068 0.0028335 </decimate_by_three_filter>
+          <decimate_by_five_filter kind="causal" number="34"> 0.0218528 0.0458359 0.0908603
+            0.1359777 0.1830881 0.1993418 0.1957624 0.1561194 0.0994146 0.0346412 -0.0236544
+            -0.0580081 -0.0703257 -0.0555546 -0.0287709 0.0032613 0.0267938 0.0358952 0.0311186
+            0.0134283 -0.0028524 -0.0170042 -0.0176765 -0.0123123 -0.0036798 0.0057730 0.0059817
+            0.0083501 0.0000581 0.0005724 -0.0033127 0.0004411 -0.0030766 0.0016604
+          </decimate_by_five_filter>
+        </bsm_processing>
+      </bsm_processing_history>  
+      <bsm_processing_history>
+        <processing_history_start>2010-12-20T00:00:00</processing_history_start> 
+	  <processing_history_end>2011-05-02T00:00:00</processing_history_end>
+        <bsm_processing>
+          <timeseries_start_date>2008-03-13T00:00:00</timeseries_start_date>
+          <timeseries_end_date>2011-05-02T00:00:00</timeseries_end_date>
+          <!-- gap units="meters">0.0001</gap -->
+          <!-- diameter units="meters">0.087</diameter -->
+          <linearization>
+            <linear_date>2008-03-30T00:00:00</linear_date>
+            <g0_value>0.55948375</g0_value>
+            <g1_value>0.53191200</g1_value>
+            <g2_value>0.55522127</g2_value>
+            <g3_value>0.49391430</g3_value>
+          </linearization>
+          <gauge_weightings>
+            <gw0>1</gw0>
+            <gw1>1</gw1>
+            <gw2>1</gw2>
+            <gw3>1</gw3>
+          </gauge_weightings>
+          <orientation_matrix>
+            <o11>0.5</o11>
+            <o12> 0.193762 </o12> 
+            <o13>-0.46093</o13>
+            <o21> 0.5 </o21>
+            <o22> 0.302297 </o22> 
+            <o23>0.398267</o23>
+            <o31>0.5</o31>
+            <o32> -0.496058 </o32> 
+            <o33>0.0626639</o33>
+            <o41>0.5 </o41>
+            <o42> -0.302298 </o42> 
+            <o43>-0.398266</o43>
+          </orientation_matrix>
+          <areal_and_shear_factors>
+            <c_areal>1.5</c_areal>
+            <d_shear>3.0</d_shear>
+          </areal_and_shear_factors>
+          <topography/>
+          <atm_pressure unit="microstrain_per_millibar">
+            <apc_g0>-0.00138189</apc_g0>
+            <apc_g1>-0.00146047</apc_g1>
+            <apc_g2>-0.00175441</apc_g2>
+            <apc_g3>-0.00113715</apc_g3>
+          </atm_pressure>
+          <tidal_parameters>
+            <units phase="degrees" potential="local" lag="negative" amp="nanostrain"/>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  ">
+              <phz kind="gauge0">22.125</phz>
+              <amp kind="gauge0">9.275</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 ">
+              <phz kind="gauge0">-32.179</phz>
+              <amp kind="gauge0">5.279</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  ">
+              <phz kind="gauge0">-39.137</phz>
+              <amp kind="gauge0">4.915</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  ">
+              <phz kind="gauge0">21.479</phz>
+              <amp kind="gauge0">3.501</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  ">
+              <phz kind="gauge0">24.571</phz>
+              <amp kind="gauge0">2.075</amp>
+            </tide>
+            <tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  ">
+              <phz kind="gauge0">-21.444</phz>
+              <amp kind="gauge0">1.484</amp>
+            </tide>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  ">
+              <phz kind="gauge1">-125.561</phz>
+              <amp kind="gauge1">4.739</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 ">
+              <phz kind="gauge1">39.598</phz>
+              <amp kind="gauge1">4.000</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  ">
+              <phz kind="gauge1">55.263</phz>
+              <amp kind="gauge1">4.547</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  ">
+              <phz kind="gauge1">-122.886</phz>
+              <amp kind="gauge1">2.132</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  ">
+              <phz kind="gauge1">-132.244</phz>
+              <amp kind="gauge1">0.984</amp>
+            </tide>
+            <tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  ">
+              <phz kind="gauge1">64.723</phz>
+              <amp kind="gauge1">2.111</amp>
+            </tide>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  ">
+              <phz kind="gauge2">5.838</phz>
+              <amp kind="gauge2">13.356</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 ">
+              <phz kind="gauge2">24.009</phz>
+              <amp kind="gauge2">2.959</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  ">
+              <phz kind="gauge2">60.259</phz>
+              <amp kind="gauge2">2.639</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  ">
+              <phz kind="gauge2">10.324</phz>
+              <amp kind="gauge2">7.075</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  ">
+              <phz kind="gauge2">0.178</phz>
+              <amp kind="gauge2">2.477</amp>
+            </tide>
+            <tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  ">
+              <phz kind="gauge2">68.176</phz>
+              <amp kind="gauge2">1.636</amp>
+            </tide>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  ">
+              <phz kind="gauge3">24.192</phz>
+              <amp kind="gauge3">10.129</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 ">
+              <phz kind="gauge3">-84.511</phz>
+              <amp kind="gauge3">2.346</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  ">
+              <phz kind="gauge3">-109.328</phz>
+              <amp kind="gauge3">2.455</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  ">
+              <phz kind="gauge3">26.955</phz>
+              <amp kind="gauge3">4.624</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  ">
+              <phz kind="gauge3">23.677</phz>
+              <amp kind="gauge3">2.137</amp>
+            </tide>
+            <tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  ">
+              <phz kind="gauge3">-114.866</phz>
+              <amp kind="gauge3">0.539</amp>
+            </tide>
+          </tidal_parameters>
+          <!-- detrend_ref>2008-03-13T00:00:00</detrend_ref -->
+          <detrend_g0 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+            <F>-73.72</F>
+            <A1>192.27</A1>
+            <T1>-.0062</T1>
+            <M>-0.048</M>
+            <A2>0.0</A2>
+            <T2>-0.00</T2>
+          </detrend_g0>
+          <detrend_g1 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+            <F>-49.19</F>
+            <A1>67.987</A1>
+            <T1>-.0073</T1>
+            <M>-0.043</M>
+            <A2>0.0</A2>
+            <T2>-0.00</T2>
+          </detrend_g1>
+          <detrend_g2 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+            <F>-54.98</F>
+            <A1>132.52</A1>
+            <T1>-.0058</T1>
+            <M>-0.0902</M>
+            <A2>0.0</A2>
+            <T2>-0.0</T2>
+          </detrend_g2>
+          <detrend_g3 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+            <F>-45.77</F>
+            <A1>26.505</A1>
+            <T1>-0.0016</T1>
+            <M>-0.101</M>
+            <A2>6.09</A2>
+            <T2>0.00169</T2>
+          </detrend_g3>         
+          <decimate_by_two_filter kind="causal" number="30"> 0.0983262 0.2977611 0.4086973 0.3138961
+            0.0494246 -0.1507778 -0.1123764 0.0376576 0.0996838 0.0154992 -0.0666489 -0.0346632
+            0.0322767 0.0399294 -0.0097461 -0.0341585 -0.0039241 0.0246776 0.0099725 -0.0157879
+            -0.0099098 0.0078510 0.0081126 -0.0026986 -0.0061424 0.0007108 0.0039659 -0.0006209
+            -0.0017117 0.0007240 </decimate_by_two_filter>
+          <decimate_by_three_filter kind="causal" number="23"> 0.0373766 0.1165151 0.2385729
+            0.3083302 0.2887327 0.1597948 0.0058244 -0.0973639 -0.1051034 -0.0358455 0.0359044
+            0.0632477 0.0302351 -0.0168856 -0.0356758 -0.0190635 0.0126188 0.0159705 0.0082144
+            -0.0087978 -0.0037289 -0.0017068 0.0028335 </decimate_by_three_filter>
+          <decimate_by_five_filter kind="causal" number="34"> 0.0218528 0.0458359 0.0908603
+            0.1359777 0.1830881 0.1993418 0.1957624 0.1561194 0.0994146 0.0346412 -0.0236544
+            -0.0580081 -0.0703257 -0.0555546 -0.0287709 0.0032613 0.0267938 0.0358952 0.0311186
+            0.0134283 -0.0028524 -0.0170042 -0.0176765 -0.0123123 -0.0036798 0.0057730 0.0059817
+            0.0083501 0.0000581 0.0005724 -0.0033127 0.0004411 -0.0030766 0.0016604
+          </decimate_by_five_filter>
+        </bsm_processing>
+      </bsm_processing_history>  
+      <bsm_processing_history>
+        <processing_history_start>2011-05-02T00:00:00</processing_history_start>
+	  <processing_history_end>2011-08-19T00:00:00</processing_history_end>
+        <bsm_processing>
+          <timeseries_start_date>2008-03-13T00:00:00</timeseries_start_date>
+          <timeseries_end_date>2011-08-19T00:00:00</timeseries_end_date>
+          <!-- gap units="meters">0.0001</gap -->
+          <!-- diameter units="meters">0.087</diameter -->
+          <linearization>
+            <linear_date>2008-03-30T00:00:00</linear_date>
+            <g0_value>0.55948375</g0_value>
+            <g1_value>0.53191200</g1_value>
+            <g2_value>0.55522127</g2_value>
+            <g3_value>0.49391430</g3_value>
+          </linearization>
+          <gauge_weightings>
+            <gw0>1</gw0>
+            <gw1>1</gw1>
+            <gw2>1</gw2>
+            <gw3>1</gw3>
+          </gauge_weightings>
+          <orientation_matrix>
+            <o11>0.5</o11>
+            <o12> 0.193762 </o12> 
+            <o13>-0.46093</o13>
+            <o21> 0.5 </o21>
+            <o22> 0.302297 </o22> 
+            <o23>0.398267</o23>
+            <o31>0.5</o31>
+            <o32> -0.496058 </o32> 
+            <o33>0.0626639</o33>
+            <o41>0.5 </o41>
+            <o42> -0.302298 </o42> 
+            <o43>-0.398266</o43>
+          </orientation_matrix>
+          <areal_and_shear_factors>
+            <c_areal>1.5</c_areal>
+            <d_shear>3.0</d_shear>
+          </areal_and_shear_factors>
+          <topography/>
+          <atm_pressure unit="microstrain_per_millibar">
+            <apc_g0>-0.00138189</apc_g0>
+            <apc_g1>-0.00146047</apc_g1>
+            <apc_g2>-0.00175441</apc_g2>
+            <apc_g3>-0.00113715</apc_g3>
+          </atm_pressure>
+          <tidal_parameters>
+            <units phase="degrees" potential="local" lag="negative" amp="nanostrain"/>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  ">
+              <phz kind="gauge0">22.125</phz>
+              <amp kind="gauge0">9.275</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 ">
+              <phz kind="gauge0">-32.179</phz>
+              <amp kind="gauge0">5.279</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  ">
+              <phz kind="gauge0">-39.137</phz>
+              <amp kind="gauge0">4.915</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  ">
+              <phz kind="gauge0">21.479</phz>
+              <amp kind="gauge0">3.501</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  ">
+              <phz kind="gauge0">24.571</phz>
+              <amp kind="gauge0">2.075</amp>
+            </tide>
+            <tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  ">
+              <phz kind="gauge0">-21.444</phz>
+              <amp kind="gauge0">1.484</amp>
+            </tide>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  ">
+              <phz kind="gauge1">-125.561</phz>
+              <amp kind="gauge1">4.739</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 ">
+              <phz kind="gauge1">39.598</phz>
+              <amp kind="gauge1">4.000</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  ">
+              <phz kind="gauge1">55.263</phz>
+              <amp kind="gauge1">4.547</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  ">
+              <phz kind="gauge1">-122.886</phz>
+              <amp kind="gauge1">2.132</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  ">
+              <phz kind="gauge1">-132.244</phz>
+              <amp kind="gauge1">0.984</amp>
+            </tide>
+            <tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  ">
+              <phz kind="gauge1">64.723</phz>
+              <amp kind="gauge1">2.111</amp>
+            </tide>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  ">
+              <phz kind="gauge2">5.838</phz>
+              <amp kind="gauge2">13.356</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 ">
+              <phz kind="gauge2">24.009</phz>
+              <amp kind="gauge2">2.959</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  ">
+              <phz kind="gauge2">60.259</phz>
+              <amp kind="gauge2">2.639</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  ">
+              <phz kind="gauge2">10.324</phz>
+              <amp kind="gauge2">7.075</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  ">
+              <phz kind="gauge2">0.178</phz>
+              <amp kind="gauge2">2.477</amp>
+            </tide>
+            <tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  ">
+              <phz kind="gauge2">68.176</phz>
+              <amp kind="gauge2">1.636</amp>
+            </tide>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  ">
+              <phz kind="gauge3">24.192</phz>
+              <amp kind="gauge3">10.129</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 ">
+              <phz kind="gauge3">-84.511</phz>
+              <amp kind="gauge3">2.346</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  ">
+              <phz kind="gauge3">-109.328</phz>
+              <amp kind="gauge3">2.455</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  ">
+              <phz kind="gauge3">26.955</phz>
+              <amp kind="gauge3">4.624</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  ">
+              <phz kind="gauge3">23.677</phz>
+              <amp kind="gauge3">2.137</amp>
+            </tide>
+            <tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  ">
+              <phz kind="gauge3">-114.866</phz>
+              <amp kind="gauge3">0.539</amp>
+            </tide>
+          </tidal_parameters>
+          <!-- detrend_ref>2008-03-13T00:00:00</detrend_ref -->
+		<detrend_g0 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+			<F>-69.15</F>
+			<A1>193.12</A1>
+			<T1>-.0066</T1>
+			<M>-0.053</M>
+			<A2>0.0</A2>
+			<T2>-0.00</T2>
+		</detrend_g0>
+		<detrend_g1 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+			<F>-48.6</F>
+			<A1>68.297</A1>
+			<T1>-.0075</T1>
+			<M>-0.0437</M>
+			<A2>0.0</A2>
+			<T2>-0.00</T2>
+		</detrend_g1>
+		<detrend_g2 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+			<F>-61.67</F>
+			<A1>133.52</A1>
+			<T1>-.0052</T1>
+			<M>-0.0826</M>
+			<A2>0.0</A2>
+			<T2>-0.0</T2>
+		</detrend_g2>
+		<detrend_g3 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+			<F>-45.77</F>
+			<A1>26.15</A1>
+			<T1>-0.0016</T1>
+			<M>-0.102</M>
+			<A2>6.29</A2>
+			<T2>0.00167</T2>
+		</detrend_g3>
+          <decimate_by_two_filter kind="causal" number="30"> 0.0983262 0.2977611 0.4086973 0.3138961
+            0.0494246 -0.1507778 -0.1123764 0.0376576 0.0996838 0.0154992 -0.0666489 -0.0346632
+            0.0322767 0.0399294 -0.0097461 -0.0341585 -0.0039241 0.0246776 0.0099725 -0.0157879
+            -0.0099098 0.0078510 0.0081126 -0.0026986 -0.0061424 0.0007108 0.0039659 -0.0006209
+            -0.0017117 0.0007240 </decimate_by_two_filter>
+          <decimate_by_three_filter kind="causal" number="23"> 0.0373766 0.1165151 0.2385729
+            0.3083302 0.2887327 0.1597948 0.0058244 -0.0973639 -0.1051034 -0.0358455 0.0359044
+            0.0632477 0.0302351 -0.0168856 -0.0356758 -0.0190635 0.0126188 0.0159705 0.0082144
+            -0.0087978 -0.0037289 -0.0017068 0.0028335 </decimate_by_three_filter>
+          <decimate_by_five_filter kind="causal" number="34"> 0.0218528 0.0458359 0.0908603
+            0.1359777 0.1830881 0.1993418 0.1957624 0.1561194 0.0994146 0.0346412 -0.0236544
+            -0.0580081 -0.0703257 -0.0555546 -0.0287709 0.0032613 0.0267938 0.0358952 0.0311186
+            0.0134283 -0.0028524 -0.0170042 -0.0176765 -0.0123123 -0.0036798 0.0057730 0.0059817
+            0.0083501 0.0000581 0.0005724 -0.0033127 0.0004411 -0.0030766 0.0016604
+          </decimate_by_five_filter>
+        </bsm_processing>
+      </bsm_processing_history>  
+      <bsm_processing_history>
+        <processing_history_start>2011-08-19T00:00:00</processing_history_start>
+	  <processing_history_end>2011-12-19T00:00:00</processing_history_end>
+        <bsm_processing>
+          <timeseries_start_date>2008-03-13T00:00:00</timeseries_start_date>
+          <timeseries_end_date>2011-12-19T00:00:00</timeseries_end_date>
+          <!-- gap units="meters">0.0001</gap -->
+          <!-- diameter units="meters">0.087</diameter -->
+          <linearization>
+            <linear_date>2008-03-30T00:00:00</linear_date>
+            <g0_value>0.55948375</g0_value>
+            <g1_value>0.53191200</g1_value>
+            <g2_value>0.55522127</g2_value>
+            <g3_value>0.49391430</g3_value>
+          </linearization>
+          <gauge_weightings>
+            <gw0>1</gw0>
+            <gw1>1</gw1>
+            <gw2>1</gw2>
+            <gw3>1</gw3>
+          </gauge_weightings>
+          <orientation_matrix>
+            <o11>0.5</o11>
+            <o12> 0.193762 </o12> 
+            <o13>-0.46093</o13>
+            <o21> 0.5 </o21>
+            <o22> 0.302297 </o22> 
+            <o23>0.398267</o23>
+            <o31>0.5</o31>
+            <o32> -0.496058 </o32> 
+            <o33>0.0626639</o33>
+            <o41>0.5 </o41>
+            <o42> -0.302298 </o42> 
+            <o43>-0.398266</o43>
+          </orientation_matrix>
+          <areal_and_shear_factors>
+            <c_areal>1.5</c_areal>
+            <d_shear>3.0</d_shear>
+          </areal_and_shear_factors>
+          <topography/>
+          <atm_pressure unit="microstrain_per_millibar">
+            <apc_g0>-0.0026522</apc_g0>
+            <apc_g1>-0.00290612</apc_g1>
+            <apc_g2>-0.00347008</apc_g2>
+            <apc_g3>-0.00232258</apc_g3>
+          </atm_pressure>
+          <tidal_parameters>
+            <units phase="degrees" potential="local" lag="negative" amp="nanostrain"/>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  "> 
+              <phz kind="gauge0">23.934</phz>
+              <amp kind="gauge0">8.943</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 "> 
+              <phz kind="gauge0">-34.739</phz>
+              <amp kind="gauge0">5.034</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  "> 
+              <phz kind="gauge0">-37.761</phz>
+              <amp kind="gauge0">5.506</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  "> 
+              <phz kind="gauge0">26.459</phz>
+              <amp kind="gauge0">3.394</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  "> 
+              <phz kind="gauge0">26.302</phz>
+              <amp kind="gauge0">2.031</amp>
+            </tide>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  "> 
+              <phz kind="gauge1">-123.062</phz>
+              <amp kind="gauge1">4.575</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 "> 
+              <phz kind="gauge1">38.187</phz>
+              <amp kind="gauge1">4.078</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  "> 
+              <phz kind="gauge1">46.042</phz>
+              <amp kind="gauge1">4.889</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  "> 
+              <phz kind="gauge1">-122.005</phz>
+              <amp kind="gauge1">1.929</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  "> 
+              <phz kind="gauge1">-129.535</phz>
+              <amp kind="gauge1">1.038</amp>
+            </tide>
+            <tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  "> 
+              <phz kind="gauge1">48.283</phz>
+              <amp kind="gauge1">1.915</amp>
+            </tide>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  "> 
+              <phz kind="gauge2">6.369</phz>
+              <amp kind="gauge2">13.231</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 "> 
+              <phz kind="gauge2">25.246</phz>
+              <amp kind="gauge2">2.875</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  "> 
+              <phz kind="gauge2">45.919</phz>
+              <amp kind="gauge2">2.863</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  "> 
+              <phz kind="gauge2">12.014</phz>
+              <amp kind="gauge2">7.111</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  "> 
+              <phz kind="gauge2">0.845</phz>
+              <amp kind="gauge2">2.429</amp>
+            </tide>
+            <tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  "> 
+              <phz kind="gauge2">49.726</phz>
+              <amp kind="gauge2">1.393</amp>
+            </tide>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  "> 
+              <phz kind="gauge3">23.749</phz>
+              <amp kind="gauge3">10.300</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 "> 
+              <phz kind="gauge3">-80.241</phz>
+              <amp kind="gauge3">2.225</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  "> 
+              <phz kind="gauge3">-90.206</phz>
+              <amp kind="gauge3">2.446</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  "> 
+              <phz kind="gauge3">27.883</phz>
+              <amp kind="gauge3">4.792</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  "> 
+              <phz kind="gauge3">22.662</phz>
+              <amp kind="gauge3">2.167</amp>
+            </tide>
+            <tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  "> 
+              <phz kind="gauge3">-83.115</phz>
+              <amp kind="gauge3">0.689</amp>
+            </tide>
+          </tidal_parameters>
+          <!-- detrend_ref>2008-03-13T00:00:00</detrend_ref -->
+		<detrend_g0 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+			<F>-67.81</F>
+			<A1>197.18</A1>
+			<T1>-.0068</T1>
+			<M>-0.055</M>
+			<A2>0.0</A2>
+			<T2>-0.00</T2>
+		</detrend_g0>
+		<detrend_g1 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+			<F>-59.99</F>
+			<A1>66.307</A1>
+			<T1>-.0048</T1>
+			<M>-0.033</M>
+			<A2>0.0</A2>
+			<T2>-0.00</T2>
+		</detrend_g1>
+		<detrend_g2 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+			<F>-65.24</F>
+			<A1>137.00</A1>
+			<T1>-.0050</T1>
+			<M>-0.0786</M>
+			<A2>0.0</A2>
+			<T2>-0.0</T2>
+		</detrend_g2>
+		<detrend_g3 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+			<F>-52.34</F>
+			<A1>31.297</A1>
+			<T1>-0.0016</T1>
+			<M>-0.0973</M>
+			<A2>7.908</A2>
+			<T2>0.00147</T2>
+		</detrend_g3>
+          <decimate_by_two_filter kind="causal" number="30"> 0.0983262 0.2977611 0.4086973 0.3138961
+            0.0494246 -0.1507778 -0.1123764 0.0376576 0.0996838 0.0154992 -0.0666489 -0.0346632
+            0.0322767 0.0399294 -0.0097461 -0.0341585 -0.0039241 0.0246776 0.0099725 -0.0157879
+            -0.0099098 0.0078510 0.0081126 -0.0026986 -0.0061424 0.0007108 0.0039659 -0.0006209
+            -0.0017117 0.0007240 </decimate_by_two_filter>
+          <decimate_by_three_filter kind="causal" number="23"> 0.0373766 0.1165151 0.2385729
+            0.3083302 0.2887327 0.1597948 0.0058244 -0.0973639 -0.1051034 -0.0358455 0.0359044
+            0.0632477 0.0302351 -0.0168856 -0.0356758 -0.0190635 0.0126188 0.0159705 0.0082144
+            -0.0087978 -0.0037289 -0.0017068 0.0028335 </decimate_by_three_filter>
+          <decimate_by_five_filter kind="causal" number="34"> 0.0218528 0.0458359 0.0908603
+            0.1359777 0.1830881 0.1993418 0.1957624 0.1561194 0.0994146 0.0346412 -0.0236544
+            -0.0580081 -0.0703257 -0.0555546 -0.0287709 0.0032613 0.0267938 0.0358952 0.0311186
+            0.0134283 -0.0028524 -0.0170042 -0.0176765 -0.0123123 -0.0036798 0.0057730 0.0059817
+            0.0083501 0.0000581 0.0005724 -0.0033127 0.0004411 -0.0030766 0.0016604
+          </decimate_by_five_filter>
+        </bsm_processing>
+      </bsm_processing_history>  
+      <bsm_processing_history>
+        <processing_history_start>2011-12-19T00:00:00</processing_history_start>
+	  <processing_history_end>2012-11-17T00:00:00</processing_history_end>
+        <bsm_processing>
+          <timeseries_start_date>2008-03-13T00:00:00</timeseries_start_date>
+          <timeseries_end_date>2012-11-17T00:00:00</timeseries_end_date>
+          <!-- gap units="meters">0.0001</gap -->
+          <!-- diameter units="meters">0.087</diameter -->
+          <linearization>
+            <linear_date>2008-03-30T00:00:00</linear_date>
+            <g0_value>0.55948375</g0_value>
+            <g1_value>0.53191200</g1_value>
+            <g2_value>0.55522127</g2_value>
+            <g3_value>0.49391430</g3_value>
+          </linearization>
+          <gauge_weightings>
+            <gw0>1</gw0>
+            <gw1>1</gw1>
+            <gw2>1</gw2>
+            <gw3>1</gw3>
+          </gauge_weightings>
+          <orientation_matrix>
+            <o11>0.5</o11>
+            <o12> 0.193762 </o12> 
+            <o13>-0.46093</o13>
+            <o21> 0.5 </o21>
+            <o22> 0.302297 </o22> 
+            <o23>0.398267</o23>
+            <o31>0.5</o31>
+            <o32> -0.496058 </o32> 
+            <o33>0.0626639</o33>
+            <o41>0.5 </o41>
+            <o42> -0.302298 </o42> 
+            <o43>-0.398266</o43>
+          </orientation_matrix>
+          <areal_and_shear_factors>
+            <c_areal>1.5</c_areal>
+            <d_shear>3.0</d_shear>
+          </areal_and_shear_factors>
+          <topography/>
+          <atm_pressure unit="microstrain_per_millibar">
+            <apc_g0>-0.0026522</apc_g0>
+            <apc_g1>-0.00290612</apc_g1>
+            <apc_g2>-0.00347008</apc_g2>
+            <apc_g3>-0.00232258</apc_g3>
+          </atm_pressure>
+          <tidal_parameters>
+            <units phase="degrees" potential="local" lag="negative" amp="nanostrain"/>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  "> 
+              <phz kind="gauge0">23.934</phz>
+              <amp kind="gauge0">8.943</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 "> 
+              <phz kind="gauge0">-34.739</phz>
+              <amp kind="gauge0">5.034</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  "> 
+              <phz kind="gauge0">-37.761</phz>
+              <amp kind="gauge0">5.506</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  "> 
+              <phz kind="gauge0">26.459</phz>
+              <amp kind="gauge0">3.394</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  "> 
+              <phz kind="gauge0">26.302</phz>
+              <amp kind="gauge0">2.031</amp>
+            </tide>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  "> 
+              <phz kind="gauge1">-123.062</phz>
+              <amp kind="gauge1">4.575</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 "> 
+              <phz kind="gauge1">38.187</phz>
+              <amp kind="gauge1">4.078</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  "> 
+              <phz kind="gauge1">46.042</phz>
+              <amp kind="gauge1">4.889</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  "> 
+              <phz kind="gauge1">-122.005</phz>
+              <amp kind="gauge1">1.929</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  "> 
+              <phz kind="gauge1">-129.535</phz>
+              <amp kind="gauge1">1.038</amp>
+            </tide>
+            <tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  "> 
+              <phz kind="gauge1">48.283</phz>
+              <amp kind="gauge1">1.915</amp>
+            </tide>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  "> 
+              <phz kind="gauge2">6.369</phz>
+              <amp kind="gauge2">13.231</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 "> 
+              <phz kind="gauge2">25.246</phz>
+              <amp kind="gauge2">2.875</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  "> 
+              <phz kind="gauge2">45.919</phz>
+              <amp kind="gauge2">2.863</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  "> 
+              <phz kind="gauge2">12.014</phz>
+              <amp kind="gauge2">7.111</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  "> 
+              <phz kind="gauge2">0.845</phz>
+              <amp kind="gauge2">2.429</amp>
+            </tide>
+            <tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  "> 
+              <phz kind="gauge2">49.726</phz>
+              <amp kind="gauge2">1.393</amp>
+            </tide>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  "> 
+              <phz kind="gauge3">23.749</phz>
+              <amp kind="gauge3">10.300</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 "> 
+              <phz kind="gauge3">-80.241</phz>
+              <amp kind="gauge3">2.225</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  "> 
+              <phz kind="gauge3">-90.206</phz>
+              <amp kind="gauge3">2.446</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  "> 
+              <phz kind="gauge3">27.883</phz>
+              <amp kind="gauge3">4.792</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  "> 
+              <phz kind="gauge3">22.662</phz>
+              <amp kind="gauge3">2.167</amp>
+            </tide>
+            <tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  "> 
+              <phz kind="gauge3">-83.115</phz>
+              <amp kind="gauge3">0.689</amp>
+            </tide>
+          </tidal_parameters>
+          <!-- detrend_ref>2008-03-13T00:00:00</detrend_ref -->
+		<detrend_g0 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+			<F>-68.94</F>
+			<A1>197.3</A1>
+			<T1>-.0067</T1>
+			<M>-0.0536</M>
+			<A2>0.0</A2>
+			<T2>0.0</T2>
+		</detrend_g0>
+		<detrend_g1 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+			<F>-56.07</F>
+			<A1>63.124</A1>
+			<T1>-.0053</T1>
+			<M>-0.0354</M>
+			<A2>0.0</A2>
+			<T2>0.0</T2>
+		</detrend_g1>
+		<detrend_g2 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+			<F>-74.45</F>
+			<A1>133.67</A1>
+			<T1>-.0042</T1>
+			<M>-0.0703</M>
+			<A2>0.0</A2>
+			<T2>0.0</T2>
+		</detrend_g2>
+		<detrend_g3 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+			<F>-425.34</F>
+			<A1>413.49</A1>
+			<T1>-0.000513</T1>
+			<M>0.069</M>
+			<A2>0.0</A2>
+			<T2>0.0</T2>
+		</detrend_g3>
+          <decimate_by_two_filter kind="causal" number="30"> 0.0983262 0.2977611 0.4086973 0.3138961
+            0.0494246 -0.1507778 -0.1123764 0.0376576 0.0996838 0.0154992 -0.0666489 -0.0346632
+            0.0322767 0.0399294 -0.0097461 -0.0341585 -0.0039241 0.0246776 0.0099725 -0.0157879
+            -0.0099098 0.0078510 0.0081126 -0.0026986 -0.0061424 0.0007108 0.0039659 -0.0006209
+            -0.0017117 0.0007240 </decimate_by_two_filter>
+          <decimate_by_three_filter kind="causal" number="23"> 0.0373766 0.1165151 0.2385729
+            0.3083302 0.2887327 0.1597948 0.0058244 -0.0973639 -0.1051034 -0.0358455 0.0359044
+            0.0632477 0.0302351 -0.0168856 -0.0356758 -0.0190635 0.0126188 0.0159705 0.0082144
+            -0.0087978 -0.0037289 -0.0017068 0.0028335 </decimate_by_three_filter>
+          <decimate_by_five_filter kind="causal" number="34"> 0.0218528 0.0458359 0.0908603
+            0.1359777 0.1830881 0.1993418 0.1957624 0.1561194 0.0994146 0.0346412 -0.0236544
+            -0.0580081 -0.0703257 -0.0555546 -0.0287709 0.0032613 0.0267938 0.0358952 0.0311186
+            0.0134283 -0.0028524 -0.0170042 -0.0176765 -0.0123123 -0.0036798 0.0057730 0.0059817
+            0.0083501 0.0000581 0.0005724 -0.0033127 0.0004411 -0.0030766 0.0016604
+          </decimate_by_five_filter>
+        </bsm_processing>
+      </bsm_processing_history>  
+      <bsm_processing_history>
+        <processing_history_start>2012-11-17T00:00:00</processing_history_start>
+	  <processing_history_end>2013-05-28T00:00:00</processing_history_end>
+        <bsm_processing>
+          <timeseries_start_date>2008-03-13T00:00:00</timeseries_start_date>
+          <timeseries_end_date>2013-05-28T00:00:00</timeseries_end_date>
+          <!-- gap units="meters">0.0001</gap -->
+          <!-- diameter units="meters">0.087</diameter -->
+          <linearization>
+            <linear_date>2008-03-30T00:00:00</linear_date>
+            <g0_value>0.55948375</g0_value>
+            <g1_value>0.53191200</g1_value>
+            <g2_value>0.55522127</g2_value>
+            <g3_value>0.49391430</g3_value>
+          </linearization>
+          <gauge_weightings>
+            <gw0>1</gw0>
+            <gw1>1</gw1>
+            <gw2>1</gw2>
+            <gw3>1</gw3>
+          </gauge_weightings>
+          <orientation_matrix>
+            <o11>0.5</o11>
+            <o12> 0.193762 </o12> 
+            <o13>-0.46093</o13>
+            <o21> 0.5 </o21>
+            <o22> 0.302297 </o22> 
+            <o23>0.398267</o23>
+            <o31>0.5</o31>
+            <o32> -0.496058 </o32> 
+            <o33>0.0626639</o33>
+            <o41>0.5 </o41>
+            <o42> -0.302298 </o42> 
+            <o43>-0.398266</o43>
+          </orientation_matrix>
+          <areal_and_shear_factors>
+            <c_areal>1.5</c_areal>
+            <d_shear>3.0</d_shear>
+          </areal_and_shear_factors>
+          <topography/>
+          <atm_pressure unit="microstrain_per_millibar">
+            <apc_g0>-0.0026522</apc_g0>
+            <apc_g1>-0.00290612</apc_g1>
+            <apc_g2>-0.00347008</apc_g2>
+            <apc_g3>-0.00232258</apc_g3>
+          </atm_pressure>
+          <tidal_parameters>
+            <units phase="degrees" potential="local" lag="negative" amp="nanostrain"/>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  "> 
+              <phz kind="gauge0">23.934</phz>
+              <amp kind="gauge0">8.943</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 "> 
+              <phz kind="gauge0">-34.739</phz>
+              <amp kind="gauge0">5.034</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  "> 
+              <phz kind="gauge0">-37.761</phz>
+              <amp kind="gauge0">5.506</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  "> 
+              <phz kind="gauge0">26.459</phz>
+              <amp kind="gauge0">3.394</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  "> 
+              <phz kind="gauge0">26.302</phz>
+              <amp kind="gauge0">2.031</amp>
+            </tide>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  "> 
+              <phz kind="gauge1">-123.062</phz>
+              <amp kind="gauge1">4.575</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 "> 
+              <phz kind="gauge1">38.187</phz>
+              <amp kind="gauge1">4.078</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  "> 
+              <phz kind="gauge1">46.042</phz>
+              <amp kind="gauge1">4.889</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  "> 
+              <phz kind="gauge1">-122.005</phz>
+              <amp kind="gauge1">1.929</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  "> 
+              <phz kind="gauge1">-129.535</phz>
+              <amp kind="gauge1">1.038</amp>
+            </tide>
+            <tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  "> 
+              <phz kind="gauge1">48.283</phz>
+              <amp kind="gauge1">1.915</amp>
+            </tide>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  "> 
+              <phz kind="gauge2">6.369</phz>
+              <amp kind="gauge2">13.231</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 "> 
+              <phz kind="gauge2">25.246</phz>
+              <amp kind="gauge2">2.875</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  "> 
+              <phz kind="gauge2">45.919</phz>
+              <amp kind="gauge2">2.863</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  "> 
+              <phz kind="gauge2">12.014</phz>
+              <amp kind="gauge2">7.111</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  "> 
+              <phz kind="gauge2">0.845</phz>
+              <amp kind="gauge2">2.429</amp>
+            </tide>
+            <tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  "> 
+              <phz kind="gauge2">49.726</phz>
+              <amp kind="gauge2">1.393</amp>
+            </tide>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  "> 
+              <phz kind="gauge3">23.749</phz>
+              <amp kind="gauge3">10.300</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 "> 
+              <phz kind="gauge3">-80.241</phz>
+              <amp kind="gauge3">2.225</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  "> 
+              <phz kind="gauge3">-90.206</phz>
+              <amp kind="gauge3">2.446</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  "> 
+              <phz kind="gauge3">27.883</phz>
+              <amp kind="gauge3">4.792</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  "> 
+              <phz kind="gauge3">22.662</phz>
+              <amp kind="gauge3">2.167</amp>
+            </tide>
+            <tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  "> 
+              <phz kind="gauge3">-83.115</phz>
+              <amp kind="gauge3">0.689</amp>
+            </tide>
+          </tidal_parameters>
+          <!-- detrend_ref>2008-03-13T00:00:00</detrend_ref -->
+		<detrend_g0 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+			<F>-73.88</F>
+			<A1>190.97</A1>
+			<T1>-.0061</T1>
+			<M>-0.0486</M>
+			<A2>0.0</A2>
+			<T2>-0.00</T2>
+		</detrend_g0>
+		<detrend_g1 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+			<F>-81.32</F>
+			<A1>66.48</A1>
+			<T1>-.00228</T1>
+			<M>-0.01735</M>
+			<A2>0.0</A2>
+			<T2>-0.00</T2>
+		</detrend_g1>
+		<detrend_g2 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+			<F>-121.594</F>
+			<A1>129.54</A1>
+			<T1>-.00192</T1>
+			<M>-0.0412</M>
+			<A2>0.0</A2>
+			<T2>-0.0</T2>
+		</detrend_g2>
+		<detrend_g3 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+			<F>-125.715</F>
+			<A1>128.32</A1>
+			<T1>-.00147</T1>
+			<M>-0.0125</M>
+			<A2>0.0</A2>
+			<T2>-0.0</T2>
+		</detrend_g3>
+          <decimate_by_two_filter kind="causal" number="30"> 0.0983262 0.2977611 0.4086973 0.3138961
+            0.0494246 -0.1507778 -0.1123764 0.0376576 0.0996838 0.0154992 -0.0666489 -0.0346632
+            0.0322767 0.0399294 -0.0097461 -0.0341585 -0.0039241 0.0246776 0.0099725 -0.0157879
+            -0.0099098 0.0078510 0.0081126 -0.0026986 -0.0061424 0.0007108 0.0039659 -0.0006209
+            -0.0017117 0.0007240 </decimate_by_two_filter>
+          <decimate_by_three_filter kind="causal" number="23"> 0.0373766 0.1165151 0.2385729
+            0.3083302 0.2887327 0.1597948 0.0058244 -0.0973639 -0.1051034 -0.0358455 0.0359044
+            0.0632477 0.0302351 -0.0168856 -0.0356758 -0.0190635 0.0126188 0.0159705 0.0082144
+            -0.0087978 -0.0037289 -0.0017068 0.0028335 </decimate_by_three_filter>
+          <decimate_by_five_filter kind="causal" number="34"> 0.0218528 0.0458359 0.0908603
+            0.1359777 0.1830881 0.1993418 0.1957624 0.1561194 0.0994146 0.0346412 -0.0236544
+            -0.0580081 -0.0703257 -0.0555546 -0.0287709 0.0032613 0.0267938 0.0358952 0.0311186
+            0.0134283 -0.0028524 -0.0170042 -0.0176765 -0.0123123 -0.0036798 0.0057730 0.0059817
+            0.0083501 0.0000581 0.0005724 -0.0033127 0.0004411 -0.0030766 0.0016604
+          </decimate_by_five_filter>
+        </bsm_processing>
+      </bsm_processing_history>  
+      <bsm_processing_history>
+        <processing_history_start>2013-05-28T00:00:00</processing_history_start>
+	  <processing_history_end>2013-10-24T00:00:00</processing_history_end>
+        <bsm_processing>
+          <timeseries_start_date>2008-03-13T00:00:00</timeseries_start_date>
+          <timeseries_end_date>2013-10-24T00:00:00</timeseries_end_date>
+          <!-- gap units="meters">0.0001</gap -->
+          <!-- diameter units="meters">0.087</diameter -->
+          <linearization>
+            <linear_date>2008-03-30T00:00:00</linear_date>
+            <g0_value>0.55948375</g0_value>
+            <g1_value>0.53191200</g1_value>
+            <g2_value>0.55522127</g2_value>
+            <g3_value>0.49391430</g3_value>
+          </linearization>
+          <gauge_weightings>
+            <gw0>1</gw0>
+            <gw1>1</gw1>
+            <gw2>1</gw2>
+            <gw3>1</gw3>
+          </gauge_weightings>
+          <orientation_matrix>
+            <o11>0.5</o11>
+            <o12> 0.193762 </o12> 
+            <o13>-0.46093</o13>
+            <o21> 0.5 </o21>
+            <o22> 0.302297 </o22> 
+            <o23>0.398267</o23>
+            <o31>0.5</o31>
+            <o32> -0.496058 </o32> 
+            <o33>0.0626639</o33>
+            <o41>0.5 </o41>
+            <o42> -0.302298 </o42> 
+            <o43>-0.398266</o43>
+          </orientation_matrix>
+          <areal_and_shear_factors>
+            <c_areal>1.5</c_areal>
+            <d_shear>3.0</d_shear>
+          </areal_and_shear_factors>
+          <topography/>
+          <atm_pressure unit="microstrain_per_millibar">
+            <apc_g0>-0.0026522</apc_g0>
+            <apc_g1>-0.00290612</apc_g1>
+            <apc_g2>-0.00347008</apc_g2>
+            <apc_g3>-0.00232258</apc_g3>
+          </atm_pressure>
+          <tidal_parameters>
+            <units phase="degrees" potential="local" lag="negative" amp="nanostrain"/>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  "> 
+              <phz kind="gauge0">23.934</phz>
+              <amp kind="gauge0">8.943</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 "> 
+              <phz kind="gauge0">-34.739</phz>
+              <amp kind="gauge0">5.034</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  "> 
+              <phz kind="gauge0">-37.761</phz>
+              <amp kind="gauge0">5.506</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  "> 
+              <phz kind="gauge0">26.459</phz>
+              <amp kind="gauge0">3.394</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  "> 
+              <phz kind="gauge0">26.302</phz>
+              <amp kind="gauge0">2.031</amp>
+            </tide>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  "> 
+              <phz kind="gauge1">-123.062</phz>
+              <amp kind="gauge1">4.575</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 "> 
+              <phz kind="gauge1">38.187</phz>
+              <amp kind="gauge1">4.078</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  "> 
+              <phz kind="gauge1">46.042</phz>
+              <amp kind="gauge1">4.889</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  "> 
+              <phz kind="gauge1">-122.005</phz>
+              <amp kind="gauge1">1.929</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  "> 
+              <phz kind="gauge1">-129.535</phz>
+              <amp kind="gauge1">1.038</amp>
+            </tide>
+            <tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  "> 
+              <phz kind="gauge1">48.283</phz>
+              <amp kind="gauge1">1.915</amp>
+            </tide>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  "> 
+              <phz kind="gauge2">6.369</phz>
+              <amp kind="gauge2">13.231</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 "> 
+              <phz kind="gauge2">25.246</phz>
+              <amp kind="gauge2">2.875</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  "> 
+              <phz kind="gauge2">45.919</phz>
+              <amp kind="gauge2">2.863</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  "> 
+              <phz kind="gauge2">12.014</phz>
+              <amp kind="gauge2">7.111</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  "> 
+              <phz kind="gauge2">0.845</phz>
+              <amp kind="gauge2">2.429</amp>
+            </tide>
+            <tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  "> 
+              <phz kind="gauge2">49.726</phz>
+              <amp kind="gauge2">1.393</amp>
+            </tide>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  "> 
+              <phz kind="gauge3">23.749</phz>
+              <amp kind="gauge3">10.300</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 "> 
+              <phz kind="gauge3">-80.241</phz>
+              <amp kind="gauge3">2.225</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  "> 
+              <phz kind="gauge3">-90.206</phz>
+              <amp kind="gauge3">2.446</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  "> 
+              <phz kind="gauge3">27.883</phz>
+              <amp kind="gauge3">4.792</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  "> 
+              <phz kind="gauge3">22.662</phz>
+              <amp kind="gauge3">2.167</amp>
+            </tide>
+            <tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  "> 
+              <phz kind="gauge3">-83.115</phz>
+              <amp kind="gauge3">0.689</amp>
+            </tide>
+          </tidal_parameters>
+          <!-- detrend_ref>2008-03-13T00:00:00</detrend_ref -->
+		<detrend_g0 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+			<F>-76.97</F>
+			<A1>188.86</A1>
+			<T1>-.0058</T1>
+			<M>-0.0458</M>
+			<A2>0.0</A2>
+			<T2>-0.00</T2>
+		</detrend_g0>
+		<detrend_g1 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+			<F>-90.67</F>
+			<A1>68.07</A1>
+			<T1>-.00172</T1>
+			<M>-0.0128</M>
+			<A2>0.0</A2>
+			<T2>-0.00</T2>
+		</detrend_g1>
+		<detrend_g2 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+			<F>-118.193</F>
+			<A1>137.31</A1>
+			<T1>-.00214</T1>
+			<M>-0.0420</M>
+			<A2>0.0</A2>
+			<T2>-0.0</T2>
+		</detrend_g2>
+		<detrend_g3 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+			<F>-155.233</F>
+			<A1>148</A1>
+			<T1>-.00111</T1>
+			<M>-0.0021</M>
+			<A2>0.0</A2>
+			<T2>-0.0</T2>
+		</detrend_g3>
+          <decimate_by_two_filter kind="causal" number="30"> 0.0983262 0.2977611 0.4086973 0.3138961
+            0.0494246 -0.1507778 -0.1123764 0.0376576 0.0996838 0.0154992 -0.0666489 -0.0346632
+            0.0322767 0.0399294 -0.0097461 -0.0341585 -0.0039241 0.0246776 0.0099725 -0.0157879
+            -0.0099098 0.0078510 0.0081126 -0.0026986 -0.0061424 0.0007108 0.0039659 -0.0006209
+            -0.0017117 0.0007240 </decimate_by_two_filter>
+          <decimate_by_three_filter kind="causal" number="23"> 0.0373766 0.1165151 0.2385729
+            0.3083302 0.2887327 0.1597948 0.0058244 -0.0973639 -0.1051034 -0.0358455 0.0359044
+            0.0632477 0.0302351 -0.0168856 -0.0356758 -0.0190635 0.0126188 0.0159705 0.0082144
+            -0.0087978 -0.0037289 -0.0017068 0.0028335 </decimate_by_three_filter>
+          <decimate_by_five_filter kind="causal" number="34"> 0.0218528 0.0458359 0.0908603
+            0.1359777 0.1830881 0.1993418 0.1957624 0.1561194 0.0994146 0.0346412 -0.0236544
+            -0.0580081 -0.0703257 -0.0555546 -0.0287709 0.0032613 0.0267938 0.0358952 0.0311186
+            0.0134283 -0.0028524 -0.0170042 -0.0176765 -0.0123123 -0.0036798 0.0057730 0.0059817
+            0.0083501 0.0000581 0.0005724 -0.0033127 0.0004411 -0.0030766 0.0016604
+          </decimate_by_five_filter>
+        </bsm_processing>
+      </bsm_processing_history>  
+      <bsm_processing_history>
+        <processing_history_start>2013-10-24T00:00:00</processing_history_start>
+	  <processing_history_end>2014-06-20T00:00:00</processing_history_end>
+        <bsm_processing>
+          <timeseries_start_date>2008-03-13T00:00:00</timeseries_start_date>
+          <timeseries_end_date>2014-06-20T00:00:00</timeseries_end_date>
+          <!-- gap units="meters">0.0001</gap -->
+          <!-- diameter units="meters">0.087</diameter -->
+          <linearization>
+            <linear_date>2008-03-30T00:00:00</linear_date>
+            <g0_value>0.55948375</g0_value>
+            <g1_value>0.53191200</g1_value>
+            <g2_value>0.55522127</g2_value>
+            <g3_value>0.49391430</g3_value>
+          </linearization>
+          <gauge_weightings>
+            <gw0>1</gw0>
+            <gw1>1</gw1>
+            <gw2>1</gw2>
+            <gw3>1</gw3>
+          </gauge_weightings>
+          <orientation_matrix>
+            <o11>0.5</o11>
+            <o12> 0.193762 </o12> 
+            <o13>-0.46093</o13>
+            <o21> 0.5 </o21>
+            <o22> 0.302297 </o22> 
+            <o23>0.398267</o23>
+            <o31>0.5</o31>
+            <o32> -0.496058 </o32> 
+            <o33>0.0626639</o33>
+            <o41>0.5 </o41>
+            <o42> -0.302298 </o42> 
+            <o43>-0.398266</o43>
+          </orientation_matrix>
+          <areal_and_shear_factors>
+            <c_areal>1.5</c_areal>
+            <d_shear>3.0</d_shear>
+          </areal_and_shear_factors>
+          <topography/>
+          <atm_pressure unit="microstrain_per_millibar">
+            <apc_g0>-0.0026522</apc_g0>
+            <apc_g1>-0.00290612</apc_g1>
+            <apc_g2>-0.00347008</apc_g2>
+            <apc_g3>-0.00232258</apc_g3>
+          </atm_pressure>
+          <tidal_parameters>
+            <units phase="degrees" potential="local" lag="negative" amp="nanostrain"/>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  "> 
+              <phz kind="gauge0">23.934</phz>
+              <amp kind="gauge0">8.943</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 "> 
+              <phz kind="gauge0">-34.739</phz>
+              <amp kind="gauge0">5.034</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  "> 
+              <phz kind="gauge0">-37.761</phz>
+              <amp kind="gauge0">5.506</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  "> 
+              <phz kind="gauge0">26.459</phz>
+              <amp kind="gauge0">3.394</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  "> 
+              <phz kind="gauge0">26.302</phz>
+              <amp kind="gauge0">2.031</amp>
+            </tide>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  "> 
+              <phz kind="gauge1">-123.062</phz>
+              <amp kind="gauge1">4.575</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 "> 
+              <phz kind="gauge1">38.187</phz>
+              <amp kind="gauge1">4.078</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  "> 
+              <phz kind="gauge1">46.042</phz>
+              <amp kind="gauge1">4.889</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  "> 
+              <phz kind="gauge1">-122.005</phz>
+              <amp kind="gauge1">1.929</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  "> 
+              <phz kind="gauge1">-129.535</phz>
+              <amp kind="gauge1">1.038</amp>
+            </tide>
+            <tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  "> 
+              <phz kind="gauge1">48.283</phz>
+              <amp kind="gauge1">1.915</amp>
+            </tide>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  "> 
+              <phz kind="gauge2">6.369</phz>
+              <amp kind="gauge2">13.231</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 "> 
+              <phz kind="gauge2">25.246</phz>
+              <amp kind="gauge2">2.875</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  "> 
+              <phz kind="gauge2">45.919</phz>
+              <amp kind="gauge2">2.863</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  "> 
+              <phz kind="gauge2">12.014</phz>
+              <amp kind="gauge2">7.111</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  "> 
+              <phz kind="gauge2">0.845</phz>
+              <amp kind="gauge2">2.429</amp>
+            </tide>
+            <tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  "> 
+              <phz kind="gauge2">49.726</phz>
+              <amp kind="gauge2">1.393</amp>
+            </tide>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  "> 
+              <phz kind="gauge3">23.749</phz>
+              <amp kind="gauge3">10.300</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 "> 
+              <phz kind="gauge3">-80.241</phz>
+              <amp kind="gauge3">2.225</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  "> 
+              <phz kind="gauge3">-90.206</phz>
+              <amp kind="gauge3">2.446</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  "> 
+              <phz kind="gauge3">27.883</phz>
+              <amp kind="gauge3">4.792</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  "> 
+              <phz kind="gauge3">22.662</phz>
+              <amp kind="gauge3">2.167</amp>
+            </tide>
+            <tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  "> 
+              <phz kind="gauge3">-83.115</phz>
+              <amp kind="gauge3">0.689</amp>
+            </tide>
+          </tidal_parameters>
+          <!-- detrend_ref>2008-03-13T00:00:00</detrend_ref -->
+		<detrend_g0 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+			<F>-79.64</F>
+			<A1>186.77</A1>
+			<T1>-.0055</T1>
+			<M>-0.0436</M>
+			<A2>0.0</A2>
+			<T2>-0.00</T2>
+		</detrend_g0>
+		<detrend_g1 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+			<F>-90.67</F>
+			<A1>68.07</A1>
+			<T1>-.00172</T1>
+			<M>-0.0128</M>
+			<A2>0.0</A2>
+			<T2>-0.00</T2>
+		</detrend_g1>
+		<detrend_g2 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+			<F>-129.373</F>
+			<A1>143.46</A1>
+			<T1>-.00189</T1>
+			<M>-0.0365</M>
+			<A2>0.0</A2>
+			<T2>-0.0</T2>
+		</detrend_g2>
+		<detrend_g3 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+			<F>-153.335</F>
+			<A1>146.14</A1>
+			<T1>-.001123</T1>
+			<M>-0.0028</M>
+			<A2>0.0</A2>
+			<T2>-0.0</T2>
+		</detrend_g3>
+          <decimate_by_two_filter kind="causal" number="30"> 0.0983262 0.2977611 0.4086973 0.3138961
+            0.0494246 -0.1507778 -0.1123764 0.0376576 0.0996838 0.0154992 -0.0666489 -0.0346632
+            0.0322767 0.0399294 -0.0097461 -0.0341585 -0.0039241 0.0246776 0.0099725 -0.0157879
+            -0.0099098 0.0078510 0.0081126 -0.0026986 -0.0061424 0.0007108 0.0039659 -0.0006209
+            -0.0017117 0.0007240 </decimate_by_two_filter>
+          <decimate_by_three_filter kind="causal" number="23"> 0.0373766 0.1165151 0.2385729
+            0.3083302 0.2887327 0.1597948 0.0058244 -0.0973639 -0.1051034 -0.0358455 0.0359044
+            0.0632477 0.0302351 -0.0168856 -0.0356758 -0.0190635 0.0126188 0.0159705 0.0082144
+            -0.0087978 -0.0037289 -0.0017068 0.0028335 </decimate_by_three_filter>
+          <decimate_by_five_filter kind="causal" number="34"> 0.0218528 0.0458359 0.0908603
+            0.1359777 0.1830881 0.1993418 0.1957624 0.1561194 0.0994146 0.0346412 -0.0236544
+            -0.0580081 -0.0703257 -0.0555546 -0.0287709 0.0032613 0.0267938 0.0358952 0.0311186
+            0.0134283 -0.0028524 -0.0170042 -0.0176765 -0.0123123 -0.0036798 0.0057730 0.0059817
+            0.0083501 0.0000581 0.0005724 -0.0033127 0.0004411 -0.0030766 0.0016604
+          </decimate_by_five_filter>
+        </bsm_processing>
+      </bsm_processing_history>  
+      <bsm_processing_history>
+        <processing_history_start>2014-06-20T00:00:00</processing_history_start>
+	  <processing_history_end>2015-03-10T00:00:00</processing_history_end>
+        <bsm_processing>
+          <timeseries_start_date>2008-03-13T00:00:00</timeseries_start_date>
+          <timeseries_end_date>2015-03-10T00:00:00</timeseries_end_date>
+          <!-- gap units="meters">0.0001</gap -->
+          <!-- diameter units="meters">0.087</diameter -->
+          <linearization>
+            <linear_date>2008-03-30T00:00:00</linear_date>
+            <g0_value>0.55948375</g0_value>
+            <g1_value>0.53191200</g1_value>
+            <g2_value>0.55522127</g2_value>
+            <g3_value>0.49391430</g3_value>
+          </linearization>
+          <gauge_weightings>
+            <gw0>1</gw0>
+            <gw1>1</gw1>
+            <gw2>1</gw2>
+            <gw3>1</gw3>
+          </gauge_weightings>
+          <orientation_matrix>
+            <o11>0.5</o11>
+            <o12> 0.193762 </o12> 
+            <o13>-0.46093</o13>
+            <o21> 0.5 </o21>
+            <o22> 0.302297 </o22> 
+            <o23>0.398267</o23>
+            <o31>0.5</o31>
+            <o32> -0.496058 </o32> 
+            <o33>0.0626639</o33>
+            <o41>0.5 </o41>
+            <o42> -0.302298 </o42> 
+            <o43>-0.398266</o43>
+          </orientation_matrix>
+          <areal_and_shear_factors>
+            <c_areal>1.5</c_areal>
+            <d_shear>3.0</d_shear>
+          </areal_and_shear_factors>
+          <topography/>
+          <atm_pressure unit="microstrain_per_millibar">
+            <apc_g0>-0.0026522</apc_g0>
+            <apc_g1>-0.00290612</apc_g1>
+            <apc_g2>-0.00347008</apc_g2>
+            <apc_g3>-0.00232258</apc_g3>
+          </atm_pressure>
+          <tidal_parameters>
+            <units phase="degrees" potential="local" lag="negative" amp="nanostrain"/>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  "> 
+              <phz kind="gauge0">23.934</phz>
+              <amp kind="gauge0">8.943</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 "> 
+              <phz kind="gauge0">-34.739</phz>
+              <amp kind="gauge0">5.034</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  "> 
+              <phz kind="gauge0">-37.761</phz>
+              <amp kind="gauge0">5.506</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  "> 
+              <phz kind="gauge0">26.459</phz>
+              <amp kind="gauge0">3.394</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  "> 
+              <phz kind="gauge0">26.302</phz>
+              <amp kind="gauge0">2.031</amp>
+            </tide>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  "> 
+              <phz kind="gauge1">-123.062</phz>
+              <amp kind="gauge1">4.575</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 "> 
+              <phz kind="gauge1">38.187</phz>
+              <amp kind="gauge1">4.078</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  "> 
+              <phz kind="gauge1">46.042</phz>
+              <amp kind="gauge1">4.889</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  "> 
+              <phz kind="gauge1">-122.005</phz>
+              <amp kind="gauge1">1.929</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  "> 
+              <phz kind="gauge1">-129.535</phz>
+              <amp kind="gauge1">1.038</amp>
+            </tide>
+            <tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  "> 
+              <phz kind="gauge1">48.283</phz>
+              <amp kind="gauge1">1.915</amp>
+            </tide>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  "> 
+              <phz kind="gauge2">6.369</phz>
+              <amp kind="gauge2">13.231</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 "> 
+              <phz kind="gauge2">25.246</phz>
+              <amp kind="gauge2">2.875</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  "> 
+              <phz kind="gauge2">45.919</phz>
+              <amp kind="gauge2">2.863</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  "> 
+              <phz kind="gauge2">12.014</phz>
+              <amp kind="gauge2">7.111</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  "> 
+              <phz kind="gauge2">0.845</phz>
+              <amp kind="gauge2">2.429</amp>
+            </tide>
+            <tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  "> 
+              <phz kind="gauge2">49.726</phz>
+              <amp kind="gauge2">1.393</amp>
+            </tide>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  "> 
+              <phz kind="gauge3">23.749</phz>
+              <amp kind="gauge3">10.300</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 "> 
+              <phz kind="gauge3">-80.241</phz>
+              <amp kind="gauge3">2.225</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  "> 
+              <phz kind="gauge3">-90.206</phz>
+              <amp kind="gauge3">2.446</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  "> 
+              <phz kind="gauge3">27.883</phz>
+              <amp kind="gauge3">4.792</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  "> 
+              <phz kind="gauge3">22.662</phz>
+              <amp kind="gauge3">2.167</amp>
+            </tide>
+            <tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  "> 
+              <phz kind="gauge3">-83.115</phz>
+              <amp kind="gauge3">0.689</amp>
+            </tide>
+          </tidal_parameters>
+          <!-- detrend_ref>2008-03-13T00:00:00</detrend_ref -->
+		<detrend_g0 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+			<F>-83.08</F>
+			<A1>182.56</A1>
+			<T1>-.00516</T1>
+			<M>-0.0410</M>
+			<A2>0.0</A2>
+			<T2>-0.00</T2>
+		</detrend_g0>
+		<detrend_g1 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+			<F>-88.13</F>
+			<A1>70.801</A1>
+			<T1>-.00197</T1>
+			<M>-0.0137</M>
+			<A2>0.0</A2>
+			<T2>-0.00</T2>
+		</detrend_g1>
+		<detrend_g2 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+			<F>-137.772</F>
+			<A1>151.83</A1>
+			<T1>-.00178</T1>
+			<M>-0.0323</M>
+			<A2>0.0</A2>
+			<T2>-0.0</T2>
+		</detrend_g2>
+		<detrend_g3 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+			<F>-157.633</F>
+			<A1>148.48</A1>
+			<T1>-.001066</T1>
+			<M>-0.0018</M>
+			<A2>0.0</A2>
+			<T2>-0.0</T2>
+		</detrend_g3>
+          <decimate_by_two_filter kind="causal" number="30"> 0.0983262 0.2977611 0.4086973 0.3138961
+            0.0494246 -0.1507778 -0.1123764 0.0376576 0.0996838 0.0154992 -0.0666489 -0.0346632
+            0.0322767 0.0399294 -0.0097461 -0.0341585 -0.0039241 0.0246776 0.0099725 -0.0157879
+            -0.0099098 0.0078510 0.0081126 -0.0026986 -0.0061424 0.0007108 0.0039659 -0.0006209
+            -0.0017117 0.0007240 </decimate_by_two_filter>
+          <decimate_by_three_filter kind="causal" number="23"> 0.0373766 0.1165151 0.2385729
+            0.3083302 0.2887327 0.1597948 0.0058244 -0.0973639 -0.1051034 -0.0358455 0.0359044
+            0.0632477 0.0302351 -0.0168856 -0.0356758 -0.0190635 0.0126188 0.0159705 0.0082144
+            -0.0087978 -0.0037289 -0.0017068 0.0028335 </decimate_by_three_filter>
+          <decimate_by_five_filter kind="causal" number="34"> 0.0218528 0.0458359 0.0908603
+            0.1359777 0.1830881 0.1993418 0.1957624 0.1561194 0.0994146 0.0346412 -0.0236544
+            -0.0580081 -0.0703257 -0.0555546 -0.0287709 0.0032613 0.0267938 0.0358952 0.0311186
+            0.0134283 -0.0028524 -0.0170042 -0.0176765 -0.0123123 -0.0036798 0.0057730 0.0059817
+            0.0083501 0.0000581 0.0005724 -0.0033127 0.0004411 -0.0030766 0.0016604
+          </decimate_by_five_filter>
+        </bsm_processing>
+      </bsm_processing_history>  
+      <bsm_processing_history>
+        <processing_history_start>2015-03-10T00:00:00</processing_history_start>
+	  <processing_history_end>2015-11-05T00:00:00</processing_history_end>
+        <bsm_processing>
+          <timeseries_start_date>2008-03-13T00:00:00</timeseries_start_date>
+          <timeseries_end_date>2015-11-05T00:00:00</timeseries_end_date>
+          <!-- gap units="meters">0.0001</gap -->
+          <!-- diameter units="meters">0.087</diameter -->
+          <linearization>
+            <linear_date>2008-03-30T00:00:00</linear_date>
+            <g0_value>0.55948375</g0_value>
+            <g1_value>0.53191200</g1_value>
+            <g2_value>0.55522127</g2_value>
+            <g3_value>0.49391430</g3_value>
+          </linearization>
+          <gauge_weightings>
+            <gw0>1</gw0>
+            <gw1>1</gw1>
+            <gw2>1</gw2>
+            <gw3>1</gw3>
+          </gauge_weightings>
+          <orientation_matrix>
+            <o11>0.5</o11>
+            <o12> 0.193762 </o12> 
+            <o13>-0.46093</o13>
+            <o21> 0.5 </o21>
+            <o22> 0.302297 </o22> 
+            <o23>0.398267</o23>
+            <o31>0.5</o31>
+            <o32> -0.496058 </o32> 
+            <o33>0.0626639</o33>
+            <o41>0.5 </o41>
+            <o42> -0.302298 </o42> 
+            <o43>-0.398266</o43>
+          </orientation_matrix>
+          <areal_and_shear_factors>
+            <c_areal>1.5</c_areal>
+            <d_shear>3.0</d_shear>
+          </areal_and_shear_factors>
+          <topography/>
+          <atm_pressure unit="microstrain_per_millibar">
+            <apc_g0>-0.0026522</apc_g0>
+            <apc_g1>-0.00290612</apc_g1>
+            <apc_g2>-0.00347008</apc_g2>
+            <apc_g3>-0.00232258</apc_g3>
+          </atm_pressure>
+          <tidal_parameters>
+            <units phase="degrees" potential="local" lag="negative" amp="nanostrain"/>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  "> 
+              <phz kind="gauge0">23.934</phz>
+              <amp kind="gauge0">8.943</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 "> 
+              <phz kind="gauge0">-34.739</phz>
+              <amp kind="gauge0">5.034</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  "> 
+              <phz kind="gauge0">-37.761</phz>
+              <amp kind="gauge0">5.506</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  "> 
+              <phz kind="gauge0">26.459</phz>
+              <amp kind="gauge0">3.394</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  "> 
+              <phz kind="gauge0">26.302</phz>
+              <amp kind="gauge0">2.031</amp>
+            </tide>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  "> 
+              <phz kind="gauge1">-123.062</phz>
+              <amp kind="gauge1">4.575</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 "> 
+              <phz kind="gauge1">38.187</phz>
+              <amp kind="gauge1">4.078</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  "> 
+              <phz kind="gauge1">46.042</phz>
+              <amp kind="gauge1">4.889</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  "> 
+              <phz kind="gauge1">-122.005</phz>
+              <amp kind="gauge1">1.929</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  "> 
+              <phz kind="gauge1">-129.535</phz>
+              <amp kind="gauge1">1.038</amp>
+            </tide>
+            <tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  "> 
+              <phz kind="gauge1">48.283</phz>
+              <amp kind="gauge1">1.915</amp>
+            </tide>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  "> 
+              <phz kind="gauge2">6.369</phz>
+              <amp kind="gauge2">13.231</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 "> 
+              <phz kind="gauge2">25.246</phz>
+              <amp kind="gauge2">2.875</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  "> 
+              <phz kind="gauge2">45.919</phz>
+              <amp kind="gauge2">2.863</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  "> 
+              <phz kind="gauge2">12.014</phz>
+              <amp kind="gauge2">7.111</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  "> 
+              <phz kind="gauge2">0.845</phz>
+              <amp kind="gauge2">2.429</amp>
+            </tide>
+            <tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  "> 
+              <phz kind="gauge2">49.726</phz>
+              <amp kind="gauge2">1.393</amp>
+            </tide>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  "> 
+              <phz kind="gauge3">23.749</phz>
+              <amp kind="gauge3">10.300</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 "> 
+              <phz kind="gauge3">-80.241</phz>
+              <amp kind="gauge3">2.225</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  "> 
+              <phz kind="gauge3">-90.206</phz>
+              <amp kind="gauge3">2.446</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  "> 
+              <phz kind="gauge3">27.883</phz>
+              <amp kind="gauge3">4.792</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  "> 
+              <phz kind="gauge3">22.662</phz>
+              <amp kind="gauge3">2.167</amp>
+            </tide>
+            <tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  "> 
+              <phz kind="gauge3">-83.115</phz>
+              <amp kind="gauge3">0.689</amp>
+            </tide>
+          </tidal_parameters>
+          <!-- detrend_ref>2008-03-13T00:00:00</detrend_ref -->
+		<detrend_g0 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+			<F>-85.09</F>
+			<A1>182.66</A1>
+			<T1>-.00500</T1>
+			<M>-0.0395</M>
+			<A2>0.0</A2>
+			<T2>-0.00</T2>
+		</detrend_g0>
+		<detrend_g1 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+			<F>-88.48</F>
+			<A1>70.366</A1>
+			<T1>-.00194</T1>
+			<M>-0.01361</M>
+			<A2>0.0</A2>
+			<T2>-0.00</T2>
+		</detrend_g1>
+		<detrend_g2 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+			<F>-161.064</F>
+			<A1>164.53</A1>
+			<T1>-.00141</T1>
+			<M>-0.0232</M>
+			<A2>0.0</A2>
+			<T2>-0.0</T2>
+		</detrend_g2>
+		<detrend_g3 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+			<F>-156.324</F>
+			<A1>146.61</A1>
+			<T1>-.001062</T1>
+			<M>-0.0026</M>
+			<A2>0.0</A2>
+			<T2>-0.0</T2>
+		</detrend_g3>
+          <decimate_by_two_filter kind="causal" number="30"> 0.0983262 0.2977611 0.4086973 0.3138961
+            0.0494246 -0.1507778 -0.1123764 0.0376576 0.0996838 0.0154992 -0.0666489 -0.0346632
+            0.0322767 0.0399294 -0.0097461 -0.0341585 -0.0039241 0.0246776 0.0099725 -0.0157879
+            -0.0099098 0.0078510 0.0081126 -0.0026986 -0.0061424 0.0007108 0.0039659 -0.0006209
+            -0.0017117 0.0007240 </decimate_by_two_filter>
+          <decimate_by_three_filter kind="causal" number="23"> 0.0373766 0.1165151 0.2385729
+            0.3083302 0.2887327 0.1597948 0.0058244 -0.0973639 -0.1051034 -0.0358455 0.0359044
+            0.0632477 0.0302351 -0.0168856 -0.0356758 -0.0190635 0.0126188 0.0159705 0.0082144
+            -0.0087978 -0.0037289 -0.0017068 0.0028335 </decimate_by_three_filter>
+          <decimate_by_five_filter kind="causal" number="34"> 0.0218528 0.0458359 0.0908603
+            0.1359777 0.1830881 0.1993418 0.1957624 0.1561194 0.0994146 0.0346412 -0.0236544
+            -0.0580081 -0.0703257 -0.0555546 -0.0287709 0.0032613 0.0267938 0.0358952 0.0311186
+            0.0134283 -0.0028524 -0.0170042 -0.0176765 -0.0123123 -0.0036798 0.0057730 0.0059817
+            0.0083501 0.0000581 0.0005724 -0.0033127 0.0004411 -0.0030766 0.0016604
+          </decimate_by_five_filter>
+        </bsm_processing>
+      </bsm_processing_history>  
+      <bsm_processing_history>
+        <processing_history_start>2015-11-05T00:00:00</processing_history_start>
+	  <processing_history_end>2016-07-07T00:00:00</processing_history_end>
+        <bsm_processing>
+          <timeseries_start_date>2008-03-13T00:00:00</timeseries_start_date>
+          <timeseries_end_date>2016-07-07T00:00:00</timeseries_end_date>
+          <!-- gap units="meters">0.0001</gap -->
+          <!-- diameter units="meters">0.087</diameter -->
+          <linearization>
+            <linear_date>2008-03-30T00:00:00</linear_date>
+            <g0_value>0.55948375</g0_value>
+            <g1_value>0.53191200</g1_value>
+            <g2_value>0.55522127</g2_value>
+            <g3_value>0.49391430</g3_value>
+          </linearization>
+          <gauge_weightings>
+            <gw0>1</gw0>
+            <gw1>1</gw1>
+            <gw2>1</gw2>
+            <gw3>1</gw3>
+          </gauge_weightings>
+          <orientation_matrix>
+            <o11>0.5</o11>
+            <o12> 0.193762 </o12> 
+            <o13>-0.46093</o13>
+            <o21> 0.5 </o21>
+            <o22> 0.302297 </o22> 
+            <o23>0.398267</o23>
+            <o31>0.5</o31>
+            <o32> -0.496058 </o32> 
+            <o33>0.0626639</o33>
+            <o41>0.5 </o41>
+            <o42> -0.302298 </o42> 
+            <o43>-0.398266</o43>
+          </orientation_matrix>
+          <areal_and_shear_factors>
+            <c_areal>1.5</c_areal>
+            <d_shear>3.0</d_shear>
+          </areal_and_shear_factors>
+          <topography/>
+          <atm_pressure unit="microstrain_per_millibar">
+            <apc_g0>-0.0026522</apc_g0>
+            <apc_g1>-0.00290612</apc_g1>
+            <apc_g2>-0.00347008</apc_g2>
+            <apc_g3>-0.00232258</apc_g3>
+          </atm_pressure>
+          <tidal_parameters>
+            <units phase="degrees" potential="local" lag="negative" amp="nanostrain"/>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  "> 
+              <phz kind="gauge0">23.934</phz>
+              <amp kind="gauge0">8.943</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 "> 
+              <phz kind="gauge0">-34.739</phz>
+              <amp kind="gauge0">5.034</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  "> 
+              <phz kind="gauge0">-37.761</phz>
+              <amp kind="gauge0">5.506</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  "> 
+              <phz kind="gauge0">26.459</phz>
+              <amp kind="gauge0">3.394</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  "> 
+              <phz kind="gauge0">26.302</phz>
+              <amp kind="gauge0">2.031</amp>
+            </tide>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  "> 
+              <phz kind="gauge1">-123.062</phz>
+              <amp kind="gauge1">4.575</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 "> 
+              <phz kind="gauge1">38.187</phz>
+              <amp kind="gauge1">4.078</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  "> 
+              <phz kind="gauge1">46.042</phz>
+              <amp kind="gauge1">4.889</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  "> 
+              <phz kind="gauge1">-122.005</phz>
+              <amp kind="gauge1">1.929</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  "> 
+              <phz kind="gauge1">-129.535</phz>
+              <amp kind="gauge1">1.038</amp>
+            </tide>
+            <tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  "> 
+              <phz kind="gauge1">48.283</phz>
+              <amp kind="gauge1">1.915</amp>
+            </tide>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  "> 
+              <phz kind="gauge2">6.369</phz>
+              <amp kind="gauge2">13.231</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 "> 
+              <phz kind="gauge2">25.246</phz>
+              <amp kind="gauge2">2.875</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  "> 
+              <phz kind="gauge2">45.919</phz>
+              <amp kind="gauge2">2.863</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  "> 
+              <phz kind="gauge2">12.014</phz>
+              <amp kind="gauge2">7.111</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  "> 
+              <phz kind="gauge2">0.845</phz>
+              <amp kind="gauge2">2.429</amp>
+            </tide>
+            <tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  "> 
+              <phz kind="gauge2">49.726</phz>
+              <amp kind="gauge2">1.393</amp>
+            </tide>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  "> 
+              <phz kind="gauge3">23.749</phz>
+              <amp kind="gauge3">10.300</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 "> 
+              <phz kind="gauge3">-80.241</phz>
+              <amp kind="gauge3">2.225</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  "> 
+              <phz kind="gauge3">-90.206</phz>
+              <amp kind="gauge3">2.446</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  "> 
+              <phz kind="gauge3">27.883</phz>
+              <amp kind="gauge3">4.792</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  "> 
+              <phz kind="gauge3">22.662</phz>
+              <amp kind="gauge3">2.167</amp>
+            </tide>
+            <tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  "> 
+              <phz kind="gauge3">-83.115</phz>
+              <amp kind="gauge3">0.689</amp>
+            </tide>
+          </tidal_parameters>
+          <!-- detrend_ref>2008-03-13T00:00:00</detrend_ref -->
+		<detrend_g0 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+			<F>-88.2</F>
+			<A1>181.29</A1>
+			<T1>-.00472</T1>
+			<M>-0.03748</M>
+			<A2>0.0</A2>
+			<T2>-0.00</T2>
+		</detrend_g0>
+		<detrend_g1 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+			<F>-90.81</F>
+			<A1>69.731</A1>
+			<T1>-.001786</T1>
+			<M>-0.01273</M>
+			<A2>0.0</A2>
+			<T2>-0.00</T2>
+		</detrend_g1>
+		<detrend_g2 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+			<F>-170.227</F>
+			<A1>171.25</A1>
+			<T1>-.001315</T1>
+			<M>-0.0200</M>
+			<A2>0.0</A2>
+			<T2>-0.0</T2>
+		</detrend_g2>
+		<detrend_g3 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+			<F>-148.47</F>
+			<A1>139.06</A1>
+			<T1>-.001116</T1>
+			<M>-0.0052</M>
+			<A2>0.0</A2>
+			<T2>-0.0</T2>
+		</detrend_g3>
+          <decimate_by_two_filter kind="causal" number="30"> 0.0983262 0.2977611 0.4086973 0.3138961
+            0.0494246 -0.1507778 -0.1123764 0.0376576 0.0996838 0.0154992 -0.0666489 -0.0346632
+            0.0322767 0.0399294 -0.0097461 -0.0341585 -0.0039241 0.0246776 0.0099725 -0.0157879
+            -0.0099098 0.0078510 0.0081126 -0.0026986 -0.0061424 0.0007108 0.0039659 -0.0006209
+            -0.0017117 0.0007240 </decimate_by_two_filter>
+          <decimate_by_three_filter kind="causal" number="23"> 0.0373766 0.1165151 0.2385729
+            0.3083302 0.2887327 0.1597948 0.0058244 -0.0973639 -0.1051034 -0.0358455 0.0359044
+            0.0632477 0.0302351 -0.0168856 -0.0356758 -0.0190635 0.0126188 0.0159705 0.0082144
+            -0.0087978 -0.0037289 -0.0017068 0.0028335 </decimate_by_three_filter>
+          <decimate_by_five_filter kind="causal" number="34"> 0.0218528 0.0458359 0.0908603
+            0.1359777 0.1830881 0.1993418 0.1957624 0.1561194 0.0994146 0.0346412 -0.0236544
+            -0.0580081 -0.0703257 -0.0555546 -0.0287709 0.0032613 0.0267938 0.0358952 0.0311186
+            0.0134283 -0.0028524 -0.0170042 -0.0176765 -0.0123123 -0.0036798 0.0057730 0.0059817
+            0.0083501 0.0000581 0.0005724 -0.0033127 0.0004411 -0.0030766 0.0016604
+          </decimate_by_five_filter>
+        </bsm_processing>
+      </bsm_processing_history>  
+      <bsm_processing_history>
+        <processing_history_start>2016-07-07T00:00:00</processing_history_start>
+        <processing_history_end>3000-01-01T00:00:00</processing_history_end>
+        <bsm_processing>
+          <timeseries_start_date>2008-03-13T00:00:00</timeseries_start_date>
+          <timeseries_end_date>3000-01-01T00:00:00</timeseries_end_date>
+          <!-- gap units="meters">0.0001</gap -->
+          <!-- diameter units="meters">0.087</diameter -->
+          <linearization>
+            <linear_date>2008-03-30T00:00:00</linear_date>
+            <g0_value>0.55948375</g0_value>
+            <g1_value>0.53191200</g1_value>
+            <g2_value>0.55522127</g2_value>
+            <g3_value>0.49391430</g3_value>
+          </linearization>
+          <gauge_weightings>
+            <gw0>1</gw0>
+            <gw1>1</gw1>
+            <gw2>1</gw2>
+            <gw3>1</gw3>
+          </gauge_weightings>
+          <orientation_matrix>
+            <o11>0.5</o11>
+            <o12> 0.193762 </o12> 
+            <o13>-0.46093</o13>
+            <o21> 0.5 </o21>
+            <o22> 0.302297 </o22> 
+            <o23>0.398267</o23>
+            <o31>0.5</o31>
+            <o32> -0.496058 </o32> 
+            <o33>0.0626639</o33>
+            <o41>0.5 </o41>
+            <o42> -0.302298 </o42> 
+            <o43>-0.398266</o43>
+          </orientation_matrix>
+          <areal_and_shear_factors>
+            <c_areal>1.5</c_areal>
+            <d_shear>3.0</d_shear>
+          </areal_and_shear_factors>
+          <topography/>
+          <atm_pressure unit="microstrain_per_millibar">
+            <apc_g0>-0.0026522</apc_g0>
+            <apc_g1>-0.00290612</apc_g1>
+            <apc_g2>-0.00347008</apc_g2>
+            <apc_g3>-0.00232258</apc_g3>
+          </atm_pressure>
+          <tidal_parameters>
+            <units phase="degrees" potential="local" lag="negative" amp="nanostrain"/>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  "> 
+              <phz kind="gauge0">23.934</phz>
+              <amp kind="gauge0">8.943</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 "> 
+              <phz kind="gauge0">-34.739</phz>
+              <amp kind="gauge0">5.034</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  "> 
+              <phz kind="gauge0">-37.761</phz>
+              <amp kind="gauge0">5.506</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  "> 
+              <phz kind="gauge0">26.459</phz>
+              <amp kind="gauge0">3.394</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  "> 
+              <phz kind="gauge0">26.302</phz>
+              <amp kind="gauge0">2.031</amp>
+            </tide>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  "> 
+              <phz kind="gauge1">-123.062</phz>
+              <amp kind="gauge1">4.575</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 "> 
+              <phz kind="gauge1">38.187</phz>
+              <amp kind="gauge1">4.078</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  "> 
+              <phz kind="gauge1">46.042</phz>
+              <amp kind="gauge1">4.889</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  "> 
+              <phz kind="gauge1">-122.005</phz>
+              <amp kind="gauge1">1.929</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  "> 
+              <phz kind="gauge1">-129.535</phz>
+              <amp kind="gauge1">1.038</amp>
+            </tide>
+            <tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  "> 
+              <phz kind="gauge1">48.283</phz>
+              <amp kind="gauge1">1.915</amp>
+            </tide>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  "> 
+              <phz kind="gauge2">6.369</phz>
+              <amp kind="gauge2">13.231</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 "> 
+              <phz kind="gauge2">25.246</phz>
+              <amp kind="gauge2">2.875</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  "> 
+              <phz kind="gauge2">45.919</phz>
+              <amp kind="gauge2">2.863</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  "> 
+              <phz kind="gauge2">12.014</phz>
+              <amp kind="gauge2">7.111</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  "> 
+              <phz kind="gauge2">0.845</phz>
+              <amp kind="gauge2">2.429</amp>
+            </tide>
+            <tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  "> 
+              <phz kind="gauge2">49.726</phz>
+              <amp kind="gauge2">1.393</amp>
+            </tide>
+            <tide name="M2" period_hours="12.42" doodson="2 0 0 0 0 0  "> 
+              <phz kind="gauge3">23.749</phz>
+              <amp kind="gauge3">10.300</amp>
+            </tide>
+            <tide name="O1" period_hours="25.82" doodson="1 -1 0 0 0 0 "> 
+              <phz kind="gauge3">-80.241</phz>
+              <amp kind="gauge3">2.225</amp>
+            </tide>
+            <tide name="K1" period_hours="23.93" doodson="1 1 0 0 0 0  "> 
+              <phz kind="gauge3">-90.206</phz>
+              <amp kind="gauge3">2.446</amp>
+            </tide>
+            <tide name="S2" period_hours="12.00" doodson="2 2 -2 0 0 0  "> 
+              <phz kind="gauge3">27.883</phz>
+              <amp kind="gauge3">4.792</amp>
+            </tide>
+            <tide name="N2" period_hours="12.66" doodson="2 -1 0 1 0 0  "> 
+              <phz kind="gauge3">22.662</phz>
+              <amp kind="gauge3">2.167</amp>
+            </tide>
+            <tide name="P1" period_hours="24.07" doodson="1 1 -2 0 0 0  "> 
+              <phz kind="gauge3">-83.115</phz>
+              <amp kind="gauge3">0.689</amp>
+            </tide>
+          </tidal_parameters>
+          <!-- detrend_ref>2008-03-13T00:00:00</detrend_ref -->
+		<detrend_g0 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+			<F>-80.23</F>
+			<A1>155.56</A1>
+			<T1>-.00489</T1>
+			<M>-0.0455</M>
+			<A2>0.37</A2>
+			<T2>0.00142</T2>
+		</detrend_g0>
+		<detrend_g1 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+			<F>-86.93</F>
+			<A1>65.424</A1>
+			<T1>-0.0021</T1>
+			<M>-0.01933</M>
+			<A2>3.886</A2>
+			<T2>0.000486</T2>
+		</detrend_g1>
+		<detrend_g2 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+			<F>-157.337</F>
+			<A1>167.13</A1>
+			<T1>-0.0015</T1>
+			<M>-0.025</M>
+			<A2>0.0886</A2>
+			<T2>0.00131</T2>
+		</detrend_g2>
+		<detrend_g3 units="microstrain" model="F+A1*exp(T1*t)+M*t+A2*exp(T2*t)">
+			<F>-153.711</F>
+			<A1>144.01</A1>
+			<T1>-.00107</T1>
+			<M>-0.00372</M>
+			<A2>0.0</A2>
+			<T2>-0.0</T2>
+		</detrend_g3>
+          <decimate_by_two_filter kind="causal" number="30"> 0.0983262 0.2977611 0.4086973 0.3138961
+            0.0494246 -0.1507778 -0.1123764 0.0376576 0.0996838 0.0154992 -0.0666489 -0.0346632
+            0.0322767 0.0399294 -0.0097461 -0.0341585 -0.0039241 0.0246776 0.0099725 -0.0157879
+            -0.0099098 0.0078510 0.0081126 -0.0026986 -0.0061424 0.0007108 0.0039659 -0.0006209
+            -0.0017117 0.0007240 </decimate_by_two_filter>
+          <decimate_by_three_filter kind="causal" number="23"> 0.0373766 0.1165151 0.2385729
+            0.3083302 0.2887327 0.1597948 0.0058244 -0.0973639 -0.1051034 -0.0358455 0.0359044
+            0.0632477 0.0302351 -0.0168856 -0.0356758 -0.0190635 0.0126188 0.0159705 0.0082144
+            -0.0087978 -0.0037289 -0.0017068 0.0028335 </decimate_by_three_filter>
+          <decimate_by_five_filter kind="causal" number="34"> 0.0218528 0.0458359 0.0908603
+            0.1359777 0.1830881 0.1993418 0.1957624 0.1561194 0.0994146 0.0346412 -0.0236544
+            -0.0580081 -0.0703257 -0.0555546 -0.0287709 0.0032613 0.0267938 0.0358952 0.0311186
+            0.0134283 -0.0028524 -0.0170042 -0.0176765 -0.0123123 -0.0036798 0.0057730 0.0059817
+            0.0083501 0.0000581 0.0005724 -0.0033127 0.0004411 -0.0030766 0.0016604
+          </decimate_by_five_filter>
+        </bsm_processing>
+      </bsm_processing_history>  
+    </processing>
+  </inst_info>
+</strain_xml>
