@@ -11,12 +11,15 @@
 # Metadata is above the headers
 
 import bsm_functions
-
+import xmltodict
 
 def input(sta_code, rate, network, start, end):
     odf = bsm_functions.get_data(sta_code, rate, network, start, end)
     df, comment = bsm_functions.linearize(sta_code, odf)
-    sta_meta = bsm_functions.meta_get(sta_code)
+    # Uncomment for existing metadata
+    sta_meta = xmltodict.parse(open(sta_code + '.xml').read(), process_namespaces=True)
+    # Uncomment to download new data
+    #sta_meta = bsm_functions.meta_get(sta_code)
     df, baro_channel, sf, baro_resp, baro_mean = bsm_functions.baro_corr(network, sta_code, start, end, sta_meta, df)
     df = bsm_functions.lin_corr(df)
     df, tide_in = bsm_functions.spotl_tides_corr(df, sta_code, rate, start, end, sta_meta)

@@ -1,4 +1,7 @@
 # BSM Tutorial
+
+WARNING! There is an error in NB3 for computing the areal and shear strains. I need to fix the orientation matrix to account for c and d coupling coefficients from the xml metadata. 
+
 These notebooks aim to provide a user-friendly way to understand borehole strainmeter data availability and processing. Jump to the last **Notebooks** section to see the details of each jupyter notebook. Below follows step-by-step instructions for downloading and installing necessary dependencies to run the notebooks in a Docker container. 
 
 ### 1. Install Docker

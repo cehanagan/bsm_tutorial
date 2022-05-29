@@ -1,2 +1,6 @@
 ./notebooks/DataFiles/*
 ./functions/processed/*
+./functions/*.txt
+./functions/*.xml
+./functions/spotl/*
+

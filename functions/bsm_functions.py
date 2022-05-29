@@ -16,6 +16,47 @@ from contextlib import closing
 import xmltodict
 from scipy import signal, linalg
 
+def get_strain(stations=None, rate='RS', network='PB', start=None, end=None,
+               linearize=False, gap='Provide gap!'):
+    '''
+    Input for obspy client to get data from IRIS.
+        List of 4 character site codes (e.g. ['B921'])
+        Network code (e.g. 'PB')
+        2 charater code channel for data rate
+        (1 sps: 'LS', 20 sps: 'BS', 1/600 sps: 'RS')
+        datetime start and end (e.g. format 'YYYY-MM-DD hh:mm:ss.ssssss')
+        linearize (boolean),
+            if True, supply instrument gap (0.0001 or 0.0002 m), returns microstrain
+    '''
+    df = {}; i = 0
+    while i < len(stations):
+        ch = {'0': [], '1': [], '2': [], '3': []}
+        # Get data using ObsPy client
+        if linearize == False:
+            for channel in ch:
+                # assign the gauge channel number
+                n = str(int(channel) + 1)
+                # Use obspy client to get the timeseries from iris
+                stream = client.timeseries(network=network,station=stations[i],location='T0',
+                                                channel=rate + n,starttime=start,endtime=end)[0]
+                ch[channel] = stream.data
+            df[stations[i]] = pd.DataFrame(ch).replace(999999,np.nan)
+        if linearize == True:
+            df[stations[i]] = pd.DataFrame(ch)
+            for channel in ch:
+                # assign the gauge channel number
+                n = str(int(channel) + 1)
+                # Use obspy client to get the timeseries from iris
+                stream = client.timeseries(network=network,station=stations[i],location='T0',
+                                                channel=rate + n,starttime=start,endtime=end)[0]
+                df[stations[i]][channel] = stream.data
+                df[stations[i]][channel].replace(999999,np.nan,inplace=True)
+                d = df[stations[i]][channel].values
+                df[stations[i]][channel] = ((d/1e8 / (1 - d/1e8)) - (np.nanmean(d)/1e8 / (1 - np.nanmean(d)/1e8))) * gap / 0.086 * 1e6
+        df[stations[i]].index = stream.times('timestamp')
+        i = i+1
+    return df
+
 # Function to get data, with obspy
 def get_data(sta_code, rate, network, start, end):
     '''
@@ -238,6 +279,7 @@ def spotl_tides_corr(df, sta_code, rate, start, end, xmldict):
         tot_t = UTCDateTime(end)-UTCDateTime(start)
         samp = ceil(tot_t/nterms)
         print_str = print_str + f'\\n-1\' | docker run -i spotl {spotl} {start_dt} {nterms} {samp} > {dname}{fname} \n'
+        print(f'Running the command: {print_str}')
         # Run in SPOTL
         os.system("%s" % (print_str))
         # Make sure the files wrote
@@ -273,6 +315,7 @@ def orient_mat(sta_meta):
     '''
     Computed the Moore-Penrose pseudo inverse from the orientation matrix in metadata
     '''
+    print('Warning! Error here, c and d matrix not yet accounted for.')
     a_loc = sta_meta['strain_xml']['inst_info']['processing']['bsm_processing_history'][-1]['bsm_processing']['orientation_matrix']
     a1 = np.array([float(a_loc['o11']),float(a_loc['o12']),float(a_loc['o13'])])
     a2 = np.array([float(a_loc['o21']),float(a_loc['o22']),float(a_loc['o23'])])

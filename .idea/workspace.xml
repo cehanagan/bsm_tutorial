@@ -2,9 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be9538a1-c7b2-4e7a-8a03-c856b43ad689" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/notebooks/NB1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/NB1.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/NB2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/NB2.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/NB3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/NB3.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/B066.LS.2011-02-10T00:00:00.000Z.2011-02-24T00:00:00.000Z.Level2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/B066.LS.2011-02-10T00:00:00.000Z.2011-02-24T00:00:00.000Z.RegionalStrains.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/B066.RS.2011-02-10T00:00:00.000Z.2011-02-24T00:00:00.000Z.Level2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/B066.RS.2011-02-10T00:00:00.000Z.2011-02-24T00:00:00.000Z.RegionalStrains.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/B066.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/B081.RS.2013-07-15T07:00:00.000Z.2013-07-29T00:00:00.000Z.Level2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/B081.RS.2013-07-15T07:00:00.000Z.2013-07-29T00:00:00.000Z.RegionalStrains.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/B081.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/B921.LS.2019-07-04T17:33:49.040000Z.2019-07-15T17:33:49.040000Z.Level2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/B921.LS.2019-07-04T17:33:49.040000Z.2019-07-15T17:33:49.040000Z.RegionalStrains.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/B921.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/SpotlTides/B066.LS.gauge0tides20110210.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/SpotlTides/B066.LS.gauge1tides20110210.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/SpotlTides/B066.LS.gauge2tides20110210.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/SpotlTides/B066.LS.gauge3tides20110210.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/SpotlTides/B066.RS.gauge0tides20110210.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/SpotlTides/B066.RS.gauge1tides20110210.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/SpotlTides/B066.RS.gauge2tides20110210.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/SpotlTides/B066.RS.gauge3tides20110210.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/SpotlTides/B081.RS.gauge0tides20130715.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/SpotlTides/B081.RS.gauge1tides20130715.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/SpotlTides/B081.RS.gauge2tides20130715.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/SpotlTides/B081.RS.gauge3tides20130715.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/SpotlTides/B921.LS.gauge0tides20190704.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/SpotlTides/B921.LS.gauge1tides20190704.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/SpotlTides/B921.LS.gauge2tides20190704.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/SpotlTides/B921.LS.gauge3tides20190704.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/bsm_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/bsm_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/create_level2.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/create_level2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/run_create_level2.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/run_create_level2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +52,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="20MwgiMwwnEMxa6xjTeZBKyOsmr" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -38,7 +68,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="advanced.settings" />
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.run_create_level2">
     <configuration name="bsm_functions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="bsm_tutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -146,8 +176,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test" />
         <item itemvalue="Python.run_create_level2" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.bsm_functions" />
         <item itemvalue="Python.create_level2" />
         <item itemvalue="Python.test_spotl" />
