@@ -3,6 +3,4 @@
 ./functions/spotl/*
 ./functions/*.txt 
 ./functions/*.xml
-*.txt
-*.xml
-*.pyc
+
